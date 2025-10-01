@@ -24,6 +24,4 @@ https://cyberchef.formality.de/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true,false
 
 Stage5
 
-[stage5.asm](verify-you-are-human/stage5/stage5.asm)
-
-https://cyberchef.formality.de/#recipe=Disassemble_x86('64','Full%20x86%20architecture',16,0,true,true)&input=NTU4OWU1ODFlYzgwMDAwMDAwNjg5M2Q4ODQ4NDY4OTBjM2M2OTc2OGMzOTA5MzkyNjg5MGM0YzNjNzY4OWM5MzljOTM2OGMwOWNjNmM2Njg5N2M2OWM5MzY4OTRjNzlkYzE2OGRlYzE5NjkxNjhjM2M5YzRjMmI5MGEwMDAwMDA4OWU3ODEzN2E1YTVhNWE1ODNjNzA0NDk3NWY0YzY0NDI0MjYwMGM2ODU3ZmZmZmZmZjAwODllNjhkN2Q4MGI5MjYwMDAwMDA4YTA2ODgwNzQ2NDc0OTc1ZjdjNjA3MDA4ZDNjMjRiOTQwMDAwMDAwYjAwMTg4MDc0NzQ5NzVmYWM5YzM&oeol=CRLF
+[Cyberchef](https://cyberchef.formality.de/#recipe=From_Hex('Auto')XOR(%7B'option':'Hex','string':'a5a5a5a5'%7D,'Standard',false)Reverse('Character')&input=ODQ4NGQ4OTM5N2M2YzM5MDkyOTM5MGMzYzdjM2M0OTA5MzljOTM5Y2M2YzY5Y2MwOTM5Y2M2OTdjMTlkYzc5NDkxOTZjMWRlYzJjNGM5YzM&oeol=NEL)
