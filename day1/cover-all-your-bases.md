@@ -29,6 +29,4 @@
 
 [Decoder](https://www.better-converter.com/Encoders-Decoders/Base65536-Decode)
 
-
-
 ![](cover-all-your-bases-base65536.png)
