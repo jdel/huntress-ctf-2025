@@ -19,8 +19,19 @@ shellcode = bytearray(
     )
 )
 
+listTestByteAsHex = [hex(x).split('x')[-1] for x in shellcode]
+
 ## Print the shell code
+print("-----")
+print("RAW")
+print(shellcode)
+print("-----")
+print("HEX")
 print(shellcode.hex())
+print("-----")
+print("SPLIT")
+print(" ".join(listTestByteAsHex))
+
 
 ## Execute the shellcode
 # ptr = ctypes.windll.kernel32.VirtualAlloc(ctypes.c_int(0), ctypes.c_int(len(shellcode)), ctypes.c_int(0x3000), ctypes.c_int(0x40))

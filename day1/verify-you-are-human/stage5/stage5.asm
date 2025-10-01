@@ -2,37 +2,40 @@
 .align 4
 
 _main:
-    PUSH RBP
-    MOV EBP,ESP
-    SUB ESP,00000080
-    PUSH 8484D893
-    PUSH 97C6C390
-    PUSH 929390C3
-    PUSH C7C3C490
-    PUSH 939C939C
-    PUSH C6C69CC0
-    PUSH 939CC697
-    PUSH C19DC794
-    PUSH 9196C1DE
-    PUSH C2C4C9C3
-    MOV ECX,0000000A
-    MOV EDI,ESP
-    XOR DWORD PTR [RDI],A5A5A5A5
-    ADD EDI,00000004
-    JNE 0000000000000042
-    MOV BYTE PTR [RSP+26],00
-    MOV BYTE PTR [RBP-00000081],00
-    MOV ESI,ESP
-    LEA EDI,[RBP-80]
-    MOV ECX,00000026
-    MOV AL,BYTE PTR [RSI]
-    MOV BYTE PTR [RDI],AL
-    JNE 0000000000000064
-    MOV BYTE PTR [RDI],00
-    LEA EDI,[RSP]
-    MOV ECX,00000040
-    MOV AL,01
-    MOV BYTE PTR [RDI],AL
-    JNE 000000000000007A
-    LEAVE
-    RET
+    push   rbp
+    mov    ebp,esp
+    sub    esp,0x80
+    push   0xffffffff8484d893
+    push   0xffffffff97c6c390
+    push   0xffffffff929390c3
+    push   0xffffffffc7c3c490
+    push   0xffffffff939c939c
+    push   0xffffffffc6c69cc0
+    push   0xffffffff939cc697
+    push   0xffffffffc19dc794
+    push   0xffffffff9196c1de
+    push   0xffffffffc2c4c9c3
+    mov    ecx,0xa
+    mov    edi,esp
+    xor    DWORD PTR [rdi],0xa5a5a5a5
+    add    edi,0x4
+    rex.WB jne 0x42
+    mov    BYTE PTR [rsp+0x26],0x0
+    mov    BYTE PTR [rbp-0x81],0x0
+    mov    esi,esp
+    lea    edi,[rbp-0x80]
+    mov    ecx,0x26
+    mov    al,BYTE PTR [rsi]
+    mov    BYTE PTR [rdi],al
+    rex.RX
+    rex.RXB
+    rex.WB jne 0x64
+    mov    BYTE PTR [rdi],0x0
+    lea    edi,[rsp]
+    mov    ecx,0x40
+    mov    al,0x1
+    mov    BYTE PTR [rdi],al
+    rex.RXB
+    rex.WB jne 0x7a
+    leave
+    ret
