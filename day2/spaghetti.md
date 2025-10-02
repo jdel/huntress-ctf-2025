@@ -43,7 +43,7 @@ Uncover the flag within the "main file"
     flag{39544d3b5374ebf7d39b8c260fc4afd8}
 ```
 
-https://cyberchef.formality.de/#recipe=Strings('Single%20byte',4,'Alphanumeric%20%2B%20punctuation%20(A)',false,false,false)Regular_expression('User%20defined','flag%7B.*%7D',true,true,false,false,false,false,'List%20matches')&ienc=65001
+[Cyberchef](https://cyberchef.formality.de/#recipe=Strings('Single%20byte',4,'Alphanumeric%20%2B%20punctuation%20(A)',false,false,false)Regular_expression('User%20defined','flag%7B.*%7D',true,true,false,false,false,false,'List%20matches')&ienc=65001)
 
 ## MyOasis4-decoded
 Uncover the flag within "my fourth oasis."
@@ -56,7 +56,7 @@ Got decoded the
 flag{b313794dcef335da6206d54af81b6203}
 ```
 
-https://cyberchef.formality.de/#recipe=From_HTML_Entity()&input=JiMxMDI7JiMxMDg7JiM5NzsmIzEwMzsmIzEyMzsmIzk4OyYjNTE7JiM0OTsmIzUxOyYjNTU7JiM1NzsmIzUyOyYjMTAwOyYjOTk7JiMxMDE7JiMxMDI7JiM1MTsmIzUxOyYjNTM7JiMxMDA7JiM5NzsmIzU0OyYjNTA7JiM0ODsmIzU0OyYjMTAwOyYjNTM7JiM1MjsmIzk3OyYjMTAyOyYjNTY7JiM0OTsmIzk4OyYjNTQ7JiM1MDsmIzQ4OyYjNTE7JiMxMjU7&ienc=65001
+[Cyberchef](https://cyberchef.formality.de/#recipe=From_HTML_Entity()&input=JiMxMDI7JiMxMDg7JiM5NzsmIzEwMzsmIzEyMzsmIzk4OyYjNTE7JiM0OTsmIzUxOyYjNTU7JiM1NzsmIzUyOyYjMTAwOyYjOTk7JiMxMDE7JiMxMDI7JiM1MTsmIzUxOyYjNTM7JiMxMDA7JiM5NzsmIzU0OyYjNTA7JiM0ODsmIzU0OyYjMTAwOyYjNTM7JiM1MjsmIzk3OyYjMTAyOyYjNTY7JiM0OTsmIzk4OyYjNTQ7JiM1MDsmIzQ4OyYjNTE7JiMxMjU7&ienc=65001)
 ## TDefo-decoded
 Uncover the flag beside "MEMEMAN."
 
