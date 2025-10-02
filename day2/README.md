@@ -1,1 +1,2 @@
-  - [ofa](day2/ofa.md)
+  - [ofa](ofa.md)
+  - [spaghetti](spaghetti.md)
