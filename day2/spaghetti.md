@@ -10,15 +10,13 @@ Replace regex in VSCode
 
 Some more manual cleaning up in code path to remove bloat to generate
 
-![spaghetti-clean.ps1](day2/spaghetti-clean.ps1)
+[spaghetti-clean.ps1](spaghetti-clean.ps1)
 
 Comment out the execution of payload to write it to files instead to generate
 
-![MAIN_FILE_AMIGO](day2/MAIN_FILE_AMIGO)
-
-![MyOasis4-decoded.ps1](MyOasis4-decoded.ps1)
-
-![TDefo-decoded.ps1](TDefo-decoded.ps1)
+  - [MAIN_FILE_AMIGO](MAIN_FILE_AMIGO)
+  - [MyOasis4-decoded.ps1](MyOasis4-decoded.ps1)
+  - [TDefo-decoded.ps1](TDefo-decoded.ps1)
 
 # Following allow to extract the flags
 ## MAIN_FILE_AMIGO
