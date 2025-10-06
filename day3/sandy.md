@@ -1,6 +1,14 @@
+unzip the file, then unpack with [`upx`](https://upx.github.io/).
+
+running strings on the executable reveals it's an autoit 3 packed executable.
+
+```
+<description>AutoIt v3</description>
+```
+
 used [autoit-ripper](https://github.com/nazywam/AutoIt-Ripper) to extract a [script](stage2.au3).
 
-Cleaned up the autoit code and rewrote [chunks.py](chunks.py) to prrint the payoad
+cleaned up the autoit code and rewrote [chunks.py](chunks.py) to print the payoad
 
 put it in [Cyberchef](https://cyberchef.formality.de/#recipe=From_Hex('Auto')Remove_null_bytes()&oeol=CRLF)
 
