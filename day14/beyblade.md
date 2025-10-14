@@ -1,4 +1,4 @@
-the file is a windows registry hive, using [hivetools](https://github.com/p0dalirius/hivetools) i exported it to readable json
+the file is a windows registry hive, using [hivetools](https://github.com/p0dalirius/hivetools) i exported it to [readable json](hive.json)
 
 quick ctrl+f for flag reveals the first part `flag_value_1_of_8-47cb`
 
