@@ -5,4 +5,16 @@ which prints out some binary string
 
 we can use from binary and it will render a hex string, that we can then run through from hex to get the final binary data
 
-to be continued
+Cyberchef suggests a rotate right operation, would have never crossed my mind but why not... the result looks suspiciously like reversed base64...
+
+applying more transformations in [Cyberchef](https://cyberchef.formality.de/#recipe=Rotate_right(4,false)Reverse('Character')From_Base64('A-Za-z0-9%2B/%3D',true,false)&input=09N2xDdkdaUjZdY2dnd0JgdGhJQnZXWlpyQ1RmfGhJQDZdY2pmUjNnZVdBYDJDSlV2R0lDd3dZXGpYWllySXJgMkNEbGxoSUxqWFlfYkNUZnxoSUV5N1FgNk1iYHJTM2xiV0lMaGdEZ2g3RGdnc1pSOT1pWGJDWl9iWElFfGdBYDxiNGdhXWJhOT1qV21IUWdnYjlQeGI0Z2FYWV9iWElGclhJS2U3WlRQd2xMYTdJRnJYSUxqWFFuYkNVY3U3WlJ2R0RqfGdSZ2VTMmUySXNgNl1jamZSM2dlV0FgMkliYHJJelV8Z0JsZl1jZ2dzVWxkd0lMYlhZUjxtY2dyQ1lXaUMybWJDRGE6R0lDdDdRbWJJY2ZyQ0FqdldCbWJJY2Z6V0lPbkhRbWJDRGZ1N0lGcldJSkB3bEp2V1VsYkljYTk3VWdlXWNmeldaWWJDSlxuSFFhNGIzYHJXSUNzfWJgeHdJSGJJYmB4Z0RgdGhJS2xnQWdtSFFnY3IyZnhnSUUxNUlDdV1lYHpIQ2dlR0lDcVMzYTpIRGdlUzJlMkNaVHZNYmdlR0lANl5pV2dzVWN6V0lJeTdJRHpDMmMyQ1lXYVMyZXJJc2ByQ1pZdlhCZ2toVFtEM1pVdlI5WnJDQmhqQjJjdGdJS2U3WVdhUzNoalhJSGJJYmByQ0xMYlIyamJDQmE6V1pZdkI5V2dnRGB0aElMZTdRY3JDVWRyQ0RqdkI5V2tlSUN0N1pcakM5WnJJelV8YjRmeHI6V2VHSUxqQzJvbkhJRTE3SUN1R0RoYldJTWk3SUxiV1lUcklzYHJDWVxuSElFMTtjS0VDWUpzam1FNURaVHxnRlxoZ0ZTeHdRXmU3UW9uSFFvYkxvRHkyOVVxXmpWfkMyaX5HUWR1MjJleVp5W2htY2AxS2NsaGIzYHhnQ2) reveals credentials for microsoft Entra
+
+> phisher@4rhdc6.onmicrosoft.com:PhishingAllTheTime19273!!
+>
+My sea is made of data, my shore a glowing screen, I cast my line with careful code, in a vast and global scene.
+My lure is not a worm or fly, but a name you trust, a prize, My hook is hid within a link, disguised before your eyes.
+I do not fish for flesh or fin, but for a private key, reeling in the secrets you mistakenly give to me.
+Send to that which is found within the above, to the destination you have yet to reveal, and the secret you seek will reveal.
+
+going to https://aka.ms/MSEntraPortal and logging in prompts us for MFA which we don't have, lets take a look at other places like:
+  - https://myaccount.microsoft.com/
