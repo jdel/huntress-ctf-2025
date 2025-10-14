@@ -6,4 +6,4 @@ i run the  file in [Cyberchef](https://cyberchef.formality.de/#recipe=From_Base6
 
 stage3 contains another base64 encoded string that reveals [stage4.php](stage4.php) 
 
-looking closer you will find the `mailto` function that contains the flag in the email address that needs to be reversed to reveal the final flag
+looking closer you will find the `mailto` function that contains the flag in the email address that needs to be reversed to [reveal the final flag](https://cyberchef.formality.de/#recipe=Reverse('Character')&input=fWY3MTEzMzA3MDE4NzcwZDUyZDRmOTRmZWMwMTMxOTdmew&oeol=NEL)
