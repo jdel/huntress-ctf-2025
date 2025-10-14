@@ -12,7 +12,7 @@ hash-value-2-8_5cd4
 chunk+3of8:6d7b
 piece:4/8-b34a
 
-
+shard(6/8)-315a
 component#7of8-99bb
 segment-8-of-8=58de
 ```
