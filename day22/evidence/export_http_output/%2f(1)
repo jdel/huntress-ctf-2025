@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	File Upload
+</title></head>
+<body>
+    <form method="post" action="./" id="form1" enctype="multipart/form-data">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTEyNDA4Mzk2OA9kFgICAw9kFgICBw8WAh4LXyFJdGVtQ291bnQCARYCAgEPZBYCZg8VAgp3ZWIuY29uZmlnCndlYi5jb25maWdkZJ00h+uMl2dJoYUJe68IRE4iUNpXgIbaLHkZ3wnoow6u" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAKb0knl++xvSbj13xaa92+N3WDSuFQrCTvori8+ZDGrTcmfdR6EgTVzjqa1VJ18hnQcnjv9Iqfs47lVbNKAUrV5" />
+</div>
+        <input type="file" name="FileUpload1" id="FileUpload1" />
+        <input type="submit" name="UploadButton" value="Upload" id="UploadButton" />
+        <br /><br />
+        
+        <br />
+        <h3>Uploaded Files</h3><ul>
+                <li><a href='View.aspx?file=web.config' target="_blank">web.config</a></li>
+            </ul>
+    </form>
+</body>
+</html>

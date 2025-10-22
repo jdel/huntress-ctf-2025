@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	File Upload
+</title></head>
+<body>
+    <form method="post" action="./" id="form1" enctype="multipart/form-data">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTEyNDA4Mzk2OA9kFgICAw9kFgQCBQ8WAh4EVGV4dAUSVXBsb2FkIHN1Y2Nlc3NmdWwuZAIHDxYCHgtfIUl0ZW1Db3VudAICFgQCAQ9kFgJmDxUCDXJldnNoZWxsLmFzcHgNcmV2c2hlbGwuYXNweGQCAg9kFgJmDxUCCndlYi5jb25maWcKd2ViLmNvbmZpZ2RkYQxwOdGEs7G8Wees0DCQpHqjfditwJNMUKSpt93NFu8=" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAI24+LL2FzHqzB2DmgGar/33WDSuFQrCTvori8+ZDGrTaaP8UCKoogldOIKYzVlMEQ57Lo9y9UKOQGumAPZpbXK" />
+</div>
+        <input type="file" name="FileUpload1" id="FileUpload1" />
+        <input type="submit" name="UploadButton" value="Upload" id="UploadButton" />
+        <br /><br />
+        Upload successful.
+        <br />
+        <h3>Uploaded Files</h3><ul>
+                <li><a href='View.aspx?file=revshell.aspx' target="_blank">revshell.aspx</a></li>
+            
+                <li><a href='View.aspx?file=web.config' target="_blank">web.config</a></li>
+            </ul>
+    </form>
+</body>
+</html>
