@@ -84,12 +84,15 @@ def main():
 	else:
 		print("Checking if any updates already present...")
 		updates = requests.get(f"https://api.telegram.org/bot{token}/getUpdates").json()
-		if updates["result"]:
-			print("Found", len(updates["result"]), "pending updates")
-			if ask_yn("Erase them?", True):
-				erase_updates(token)
-			else:
-				return
+		try:
+			if updates["result"]:
+				print("Found", len(updates["result"]), "pending updates")
+				if ask_yn("Erase them?", True):
+					erase_updates(token)
+				else:
+					return
+		except Exception as e:
+			print(f"An error has occured {e}")
 
 	if delete_and_restore:
 		requests.get(f"https://api.telegram.org/bot{token}/deleteWebhook")
