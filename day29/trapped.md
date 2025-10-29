@@ -14,4 +14,6 @@ this buffer is later executed ?
 
 my guess is we're guided into sending a payload to create a buffer overflow to inject arbitrary data at `0x1337000` 
 
+when we use netcat to connect, we can notice an other user prompt after the `puts("What would you like me to run next? ")` , this likely means there is another scanf or similar at address `0x1337000` 
+
 to be continued
