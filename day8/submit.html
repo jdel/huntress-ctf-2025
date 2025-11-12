@@ -1,0 +1,69 @@
+HTTP/1.1 200 OK
+Server: Werkzeug/3.1.3 Python/3.11.13
+Date: Thu, 09 Oct 2025 21:02:46 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 2451
+X-Response-Time: 0.002069
+Connection: close
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device -width,initial-scale=1" />
+  <title>Acme Internal Portal — Verification Service</title>
+  <style>
+    :root{
+      --bg:#f4f7fb;
+      --card:#ffffff;
+      --muted:#6b7280;
+      --accent:#0b6ef6;
+      --radius:12px;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    body{margin:0;background:var(--bg);color:#111827}
+    header{
+      background:linear-gradient(90deg,#0b6ef6 0%, #3b82f6 100%);
+      color:white;padding:18px 28px;display:flex;align-items:center;gap:16px;
+      box-shadow: 0 6px 18px rgba(11,110,246,0.12);
+    }
+    .brand {font-weight:700;font-size:1.15rem}
+    .container{max-width:920px;margin:32px auto;padding:0 18px}
+    .card{background:var(--card);border-radius:var(--radius);padding:26px;box-shadow:0 6px 18px rgba(16,24,40,0.06)}
+    h1{margin:0 0 8px;font-size:1.4rem}
+    p.lead{margin:0 0 18px;color:var(--muted)}
+    form{display:flex;gap:12px;align-items:center}
+    input[type="text"]{
+      flex:1;padding:10px 12px;border:1px solid #e6e9ef;border-radius:10px;font-size:0.95rem;
+      outline:none;box-sizing:border-box;
+    }
+    input[type="text"]:focus{box-shadow:0 0 0 4px rgba(11,110,246,0.08);border-color:rgba(11,110,246,0.6)}
+    button{background:var(--accent);color:white;border:none;padding:10px 14px;border-radius:10px;font-weight:600;cursor:pointer}
+    .meta{margin-top:14px;color:var(--muted);font-size:0.88rem}
+    footer{max-width:920px;margin:18px auto;text-align:center;color:var(--muted);font-size:0.85rem}
+    .note{background:#fff7ed;color:#92400e;padding:10px;border-radius:8px;margin-top:12px;border:1px solid #fde3b8}
+    .form-row{display:flex;gap:12px;align-items:center}
+  </style>
+</head>
+<body>
+  <header>
+    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" aria-hidden>
+      <rect x="1" y="1" width="22" height="22" rx="5" fill="white" opacity="0.08"/>
+      <path d="M6 12h12M6 7h12M6 17h12" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    </svg>
+    <div>
+      <div class="brand">Flag Checking Portal</div>
+      <div style="font-size:12px;opacity:0.9">Verification Service</div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card" role="main" aria-labelledby="page-title">
+      <p class="lead">Not Quite!</p>
+
+    </section>
+  </main>
+
+
+</body>
+</html>
